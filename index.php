@@ -85,13 +85,13 @@
                             </h3>
                             <div class="content">
                                 <label for="id1">Chương trình đào tạo hiện đại, tính ứng dụng cao</label>
-                                <input name="type-drop" id="id1" type="radio" />
-                                <div class="content content1">
+                                <input name="type-drop" id="id1" type="radio" checked="checked" />
+                                <div class="content-box content1">
                                     dfdsfdsf dsfds fsdf dsfsdf asdf dsf
                                 </div>
                                 <label for="id2">Chương trình đào tạo hiện đại, tính ứng dụng cao</label>
                                 <input name="type-drop" id="id2" type="radio" />
-                                <div class="content content2">
+                                <div class="content-box content2">
                                     dfdsfdsf dsfds fsdf dsfsdf asdf dsf
                                 </div>
                             </div>
@@ -107,7 +107,7 @@
                                 Môi trường học viên xuất sắc
                             </h3>
                             <div class="content">
-                                <p>
+                                <p class="sub-info">
                                     Tham gia khóa học, các học viên có cơ hội mở rộng quan hệ, tiếp xúc và được chia sẻ, học hỏi kinh nghiệm từ những những học viên khác, đều là các nhà lãnh đạo doanh nghiệp hay nhà nước.
                                 </p>
                             </div>
@@ -177,7 +177,7 @@
                         <h3 class="title">
                             01/ các hoạt động nổi bật
                         </h3>
-                        <p class="info">Ngoài các hoạt động ở trường lớp, các học viên còn được tham gia vào các chuyến đi học thực tế,  nhằm tạo ra môi trường giao lưu, chia sẻ và học hỏi kinh nghiệm lẫn nhau.</p>
+                        <p class="sub-info">Ngoài các hoạt động ở trường lớp, các học viên còn được tham gia vào các chuyến đi học thực tế,  nhằm tạo ra môi trường giao lưu, chia sẻ và học hỏi kinh nghiệm lẫn nhau.</p>
                         <div class="subcription">
                             <button class="button">Nhận thông tin khóa học</button>
                         </div>
@@ -203,7 +203,7 @@
                             <h3 class="title">
                                 02/ các hoạt động nổi bật
                             </h3>
-                            <p class="info">Ngoài các hoạt động ở trường lớp, các học viên còn được tham gia vào các chuyến đi học thực tế,  nhằm tạo ra môi trường giao lưu, chia sẻ và học hỏi kinh nghiệm lẫn nhau.</p>
+                            <p class="sub-info">Ngoài các hoạt động ở trường lớp, các học viên còn được tham gia vào các chuyến đi học thực tế,  nhằm tạo ra môi trường giao lưu, chia sẻ và học hỏi kinh nghiệm lẫn nhau.</p>
                             <div class="subcription">
                                 <button class="button">Nhận thông tin khóa học</button>
                             </div>

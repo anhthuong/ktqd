@@ -46,6 +46,8 @@ ul, ul > li, ol, ol > li{
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
 {
     font-family: avo;
+    margin: 0;
+    padding: 0;
 }
 
 .container{max-width: 1230px}
@@ -99,6 +101,12 @@ text-align: center;
 .section .subcription button{display: inline-block; font-size: 16px; color: #fff; text-transform: uppercase;
     padding: 0 20px; line-height: 47px; background-color: #0085bf; border: 0; font-family: avo_bold; font-weight: bold;
 }
+
+
+
+
+/*section more-info*/
+.more-info .program .content input[name="type-drop"]{display: none}
 
 
 
