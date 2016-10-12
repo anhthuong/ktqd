@@ -51,6 +51,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
 .container{max-width: 1230px}
 
 /*Header*/
+.header{
+    min-height: 645px;
+    background-image: url("images/banner-01.png");
+    background-repeat: no-repeat; background-size: cover; background-position: center center;
+}
 .header .header-content{float: right}
 .header .header-content .link-action,
 .header .header-content .main-menu{display: inline-block; vertical-align: top;}
