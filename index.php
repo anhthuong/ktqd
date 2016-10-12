@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/thuong.css">
 
 </head>
 <body>
