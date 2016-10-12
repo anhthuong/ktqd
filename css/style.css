@@ -55,8 +55,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
 /*Header*/
 .header{
     min-height: 645px;
-    background-image: url("images/banner-01.png");
+    background-image: url("../images/banner-01.png");
     background-repeat: no-repeat; background-size: cover; background-position: center center;
+    padding-top: 30px;
 }
 .header .header-content{float: right}
 .header .header-content .link-action,
