@@ -107,6 +107,8 @@ text-align: center;
 
 /*section more-info*/
 .more-info .program .content input[name="type-drop"]{display: none}
+.more-info .program .content .content-box{display: none}
+.more-info .program .content input[type="radio"]:checked + .content-box{display: block}
 
 
 
