@@ -7,7 +7,7 @@ ul, ul > li, ol, ol > li{
 @font-face {
     font-family: 'utm_neo';
     src: url('fonts/utm-neo/UTM Neo Sans Intel.eot');
-    src: local('☺'),
+    /*src: local('☺'),*/
     url('fonts/utm-neo/UTM Neo Sans Intel.woff') format('woff'),
     url('fonts/utm-neo/UTM Neo Sans Intel.ttf') format('truetype'),
     url('fonts/utm-neo/UTM Neo Sans Intel.svg') format('svg');
@@ -17,7 +17,7 @@ ul, ul > li, ol, ol > li{
 @font-face {
     font-family: 'utm_neo_bold';
     src: url('fonts/utm-neo/UTM Neo Sans IntelBold.eot');
-    src: local('☺'),
+    /*src: local('☺'),*/
     url('fonts/utm-neo/UTM Neo Sans IntelBold.woff') format('woff'),
     url('fonts/utm-neo/UTM Neo Sans IntelBold.ttf') format('truetype'),
     url('fonts/utm-neo/UTM Neo Sans IntelBold.svg') format('svg');
@@ -27,7 +27,8 @@ ul, ul > li, ol, ol > li{
 @font-face {
     font-family: 'avo';
     src: url('fonts/avo/UTM Avo.eot');
-    src: local('☺'), url('fonts/avo/UTMAvo.woff') format('woff'),
+    /*src: local('☺'), */
+    url('fonts/avo/UTMAvo.woff') format('woff'),
     url('fonts/avo/UTMAvo.ttf') format('truetype'),
     url('fonts/avo/UTM Avo.svg') format('svg');
     font-weight: 800;
@@ -36,7 +37,8 @@ ul, ul > li, ol, ol > li{
 @font-face {
     font-family: 'avo_bold';
     src: url('fonts/avo/UTM AvoBold.eot');
-    src: local('☺'), url('fonts/avo/UTM AvoBold.woff') format('woff'),
+    /*src: local('☺'),*/
+    url('fonts/avo/UTM AvoBold.woff') format('woff'),
     url('fonts/avo/UTM AvoBold.ttf') format('truetype'),
     url('fonts/avo/UTM AvoBold.svg') format('svg');
     font-weight: 800;
@@ -49,7 +51,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
     margin: 0;
     padding: 0;
 }
-
+p{margin: 0}
+span{font-size: inherit; font-family: inherit; font-weight: inherit; line-height: inherit}
 .container{max-width: 1230px}
 
 /*Header*/
@@ -85,10 +88,13 @@ padding: 100px 0;
 .content .section .title{
 text-align: center;
     text-transform: uppercase;
-    font-size: 31px;
-    font-family: utm_neo;
+    font-size: 32px;
+    font-family: avo_bold;
+    font-weight: bold;
     position: relative;
     padding-bottom: 20px;
+    color: #f98e00;
+
 }
 .content .section.main-info .title:before{
     content: ""; position: absolute; width: 90px; height: 2px; background-color: #0085bf;
@@ -96,24 +102,53 @@ text-align: center;
 }
 .content .section .title p{font-family: utm_neo_bold; font-weight: bold}
 
-.content .section .sub-info{font-size: 16px; line-height: 30px; text-align: center}
+.content .section .sub-info{font-size: 16px; line-height: 30px; text-align: center; color: #565656;}
 
 .section .subcription{text-align: center;}
 .section .subcription button{display: inline-block; font-size: 16px; color: #fff; text-transform: uppercase;
     padding: 0 20px; line-height: 47px; background-color: #0085bf; border: 0; font-family: avo_bold; font-weight: bold;
 }
 
-
+.section .blue{color: #0085bf}
 
 
 /*section more-info*/
+.content .section.more-info .title{text-align: left; margin-top: 20px}
+.more-info .program .content label{display: block; line-height: 21px; font-size: 16px; font-family: avo_bold; font-weight: bold; text-transform: uppercase; padding: 10px 0; margin: 0}
+.more-info .program .content label:before{
+    content: ""; display: inline-block; vertical-align: top; width: 21px; height: 21px; margin-right: 25px;
+    background-image: url("../images/section-more-info/tick-01.png");
+    background-position: center center; background-repeat: no-repeat;
+}
+
+label .blue{font-family: avo_bold; font-weight: bold; font-size: 16px;}
 .more-info .program .content input[name="type-drop"]{display: none}
-.more-info .program .content .content-box{display: none}
+.more-info .program .content .content-box{display: none; border-left: 1px solid #f9a22e; margin-left: 9px; padding-left: 33px; margin-top: 10px; margin-bottom: 10px;}
+.more-info .program .content .content-box p{
+    font-size: 16px; line-height: 20px; color: #4c4c4c;
+}
 .more-info .program .content input[type="radio"]:checked + .content-box{display: block}
 
+.section.more-info .subcription{text-align: left; margin-top: 30px}
+.content .section.more-info .sub-info{text-align: left}
 
+/*target*/
+.content .section.target{height: 600px}
+.content .section.target .title, .content .section.target .sub-info{text-align: left}
+.content .section.target{background-image: url("../images/section-target/bg-target.png");
+    background-repeat: no-repeat; background-position: 80% top;
+}
+.content .section.target .left{padding-top: 150px}
 
+/*addition info*/
+.content .section.addition-info{
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: url("../images/section-addition-info/bg.png"); background-repeat: no-repeat; background-position: center center;
 
+}
+.content .section.addition-info .title p{color: #fff; font-size: 31px; text-transform: uppercase; font-family: utm_neo;}
+
+/*footer*/
 .footer {
     background-color: #232323;
     padding: 30px 0;

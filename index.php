@@ -3,15 +3,18 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
-    <script type="text/javascript" src="lib/jquery.js"></script>
-    <script type="text/javascript" src="js/js.js"></script>
 
     <link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/owl.carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="lib/owl.carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="fonts/awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/thuong.css">
 
+
 </head>
 <body>
+
 <div class="page-wrapper">
     <header id="header" class="header">
         <div class="container">
@@ -78,22 +81,24 @@
                     <div class="container">
                     <div class="row">
                         <div class="col-md-6 col-lg-6">
-                            img
+                            <img class="img-responsive" src="images/section-more-info/left-img.jpg"/>
                         </div>
                         <div class="program col-md-6 col-lg-6">
                             <h3 class="title">
-                                Ưu thế vượt trội của chương trình Executive MBA
+                                Ưu thế vượt trội của chương trình <span class="blue">Executive MBA</span>
                             </h3>
                             <div class="content">
-                                <label for="id1">Chương trình đào tạo hiện đại, tính ứng dụng cao</label>
+                                <label for="id1">Chương trình đào tạo <span class="blue">hiện đại, tính ứng dụng cao</span></label>
                                 <input name="type-drop" id="id1" type="radio" checked="checked" />
                                 <div class="content-box content1">
-                                    dfdsfdsf dsfds fsdf dsfsdf asdf dsf
+                                    <p>
+                                    Lorem ipsum dolor sit amet, at mollis, ultrices velit et, ultrices et viverra nunc ipsum platea, sit amet, aliquam et morbi. Nostra eget scelerisque, accumsan nisl quam ipsum pellentesque, hac urna wisi nulla porta mollis et. Et lorem turpis egestas, aenean ullamcorper scelerisque etiam at ut, mi lacus, fusce quisque turpis tortor ullamcorper, in eleifend dolor tincidunt in lacus ad. Sed nec praesent quam. Sapien massa dictum pede class donec dui, dolore pede nibh faucibus facilisis sed convallis. Mollis adipiscing volutpat pulvinar, donec sed vehicula libero, vivamus blandit lacus, praesent etiam magna mattis nec mollis mauris. Nonummy euismod non ipsum erat id ac, eget ut vestibulum est in fermentum leo. Vestibulum ipsum hendrerit dolor mauris condimentum, ridiculus sapien et at urna nulla. Mauris at ultricies.
+                                    </p>
                                 </div>
-                                <label for="id2">Chương trình đào tạo hiện đại, tính ứng dụng cao</label>
+                                <label for="id2">Chương trình đào tạo <span class="blue">hiện đại, tính ứng dụng cao</span></label>
                                 <input name="type-drop" id="id2" type="radio" />
                                 <div class="content-box content2">
-                                    dfdsfdsf dsfds fsdf dsfsdf asdf dsf
+                                    Lorem ipsum dolor sit amet, at mollis, ultrices velit et, ultrices et viverra nunc ipsum platea, sit amet, aliquam et morbi. Nostra eget scelerisque, accumsan nisl quam ipsum pellentesque, hac urna wisi nulla porta mollis et. Et lorem turpis egestas, aenean ullamcorper scelerisque etiam at ut, mi lacus, fusce quisque turpis tortor ullamcorper, in eleifend dolor tincidunt in lacus ad. Sed nec praesent quam. Sapien massa dictum pede class donec dui, dolore pede nibh faucibus facilisis sed convallis. Mollis adipiscing volutpat pulvinar, donec sed vehicula libero, vivamus blandit lacus, praesent etiam magna mattis nec mollis mauris. Nonummy euismod non ipsum erat id ac, eget ut vestibulum est in fermentum leo. Vestibulum ipsum hendrerit dolor mauris condimentum, ridiculus sapien et at urna nulla. Mauris at ultricies.
                                 </div>
                             </div>
                             <div class="subcription">
@@ -105,7 +110,7 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-3">
                             <h3 class="title">
-                                Môi trường học viên xuất sắc
+                                Môi trường <span class="blue">học viên xuất sắc</span>
                             </h3>
                             <div class="content">
                                 <p class="sub-info">
@@ -116,14 +121,125 @@
                                 <button class="button">Nhận thông tin khóa học</button>
                             </div>
                         </div>
-                    </div>
+                        <div class="col-lg-9 col-md-9">
+                            <div class="tab-container">
+                                <ul class="student owl-carousel">
+                                        <li>
+                                            <div><img src="images/img-1.jpg"></div>
+                                            <h3 class="name">Th.S Duong Tat Thang</h3>
+                                            <p class="detail">Tổng giám đốc công ty á long</p>
+                                            <div class="social">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#"><span class="fa fa-facebook"></span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="fa fa-twitter"></span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="fa fa-tumblr"></span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="fa fa-rss"></span></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div><img src="images/img-2.jpg"></div>
+                                            <h3>Th.S Duong Tat Thang</h3>
+                                            <div class="social">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#"><span class="fa fa-facebook"></span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="fa fa-twitter"></span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="fa fa-tumblr"></span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="fa fa-rss"></span></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div><img src="images/img-3.jpg"></div>
+                                            <h3 class="name">Th.S Duong Tat Thang</h3>
+                                            <p class="detail">Tổng giám đốc công ty á long</p>
+                                            <div class="social">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#"><span class="fa fa-facebook"></span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="fa fa-twitter"></span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="fa fa-tumblr"></span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="fa fa-rss"></span></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div><img src="images/img-2.jpg"></div>
+                                            <h3 class="name">Th.S Duong Tat Thang</h3>
+                                            <p class="detail">Tổng giám đốc công ty á long</p>
+                                            <div class="social">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#"><span class="fa fa-facebook"></span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="fa fa-twitter"></span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="fa fa-tumblr"></span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="fa fa-rss"></span></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div><img src="images/img-3.jpg"></div>
+                                            <h3 class="name">Th.S Duong Tat Thang</h3>
+                                            <p class="detail">Tổng giám đốc công ty á long</p>
+                                            <div class="social">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#"><span class="fa fa-facebook"></span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="fa fa-twitter"></span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="fa fa-tumblr"></span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="fa fa-rss"></span></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
                     </div>
                 </section>
 
                 <section class="section target">
                     <div class="container">
+                    <div class="row">
+                        <div class="left col-lg-5 col-md-5">
                         <h3 class="title">
-                            Mục tiêu đào tạo
+                            Mục tiêu <span class="blue"> đào tạo</span>
                         </h3>
                         <p class="sub-info">
                             Nhằm đào tạo học viên trở thành những nhà lãnh đạo chuyên nghiệp, có đủ năng lực thúc đẩy sự phát triển của tổ chức trên con đường hội nhập, với trọng tâm là mở rộng và nâng cao khả năng xác định tầm nhìn và xây dựng chiến lược, rèn luyện các kỹ năng lãnh đạo và điều hành của người đứng đầu
@@ -131,6 +247,11 @@
                         <div class="subcription">
                             <button class="button">Nhận thông tin khóa học</button>
                         </div>
+                        </div>
+<!--                        <div class="col-lg-7 col-md-7">-->
+<!--                            <img class="img-responsive" src="images/section-target/bg-target.png">-->
+<!--                        </div>-->
+                    </div>
                     </div>
                 </section>
 
@@ -138,7 +259,7 @@
                 <section class="section addition-info">
                     <div class="container">
                         <h3 class="title">
-                            Thông tin khóa học Executive MBA
+                            <p class="white">Thông tin</p> khóa học Executive MBA
                         </h3>
                         <div class="content">
                             dkfjdskjf
@@ -327,6 +448,8 @@
 </div>
 
 
-
+<script type="text/javascript" src="lib/jquery.js"></script>
+<script type="text/javascript" src="lib/owl.carousel/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
 </body>
 </html>
