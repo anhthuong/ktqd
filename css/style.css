@@ -166,6 +166,8 @@ label .blue{font-family: avo_bold; font-weight: bold; font-size: 16px;}
     left: calc(50% - 45px); background-color: #f98e00;
 }
 .content .section.addition-info .title p{color: #fff; font-size: 31px; text-transform: uppercase; font-family: utm_neo;}
+.addition-info .subcription{text-align: center;}
+.addition-info{padding: 65px 0}
 
 /*24px*/
 /*82px*/

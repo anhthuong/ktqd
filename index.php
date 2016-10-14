@@ -414,40 +414,7 @@ hàng đầu về kinh tế và kinh doanh trên thế giới. </p>
                             </div>
                         </div>
                         
-                        
-                        
-                        
-                        
-                        <ul class="pgwSlideshow pgwSlider-02">
-                            <li>
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <p>Phó giáo sư, tiến sỹ</p>
-                                    <h2>TRẦN THỊ VÂN HOA</h2>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <img src="lib/slider-01/01-slide-01.jpg">
-                                </div>
-                            </li>
-                            <li>
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <p>Phó giáo sư, tiến sỹ</p>
-                                    <h2>TRẦN THỊ VÂN TAY</h2>
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6">
-                                    <img src="lib/slider-01/02-slide-01.jpg">
-                                </div>
-                            </li>
-                            <li><img src="lib/slider-01/02-slide-01.jpg" ></li>
-                            <li><img src="lib/slider-01/03-slide-01.jpg"></li>
-                            <li><img src="lib/slider-01/04-slide-01.jpg"></li>
-                            <li><img src="lib/slider-01/05-slide-01.jpg"></li>
-                            <li><img src="lib/slider-01/06-slide-01.jpg"></li>
-                            <li><img src="lib/slider-01/07-slide-01.jpg"></li>
-                            <li><img src="lib/slider-01/08-slide-01.jpg"></li>
-                            <li><img src="lib/slider-01/09-slide-01.jpg"></li>
-                            <li><img src="lib/slider-01/10-slide-01.jpg"></li>
-                            <li><img src="lib/slider-01/11-slide-01.jpg"></li>
-                        </ul>
+
                     </div>
                 </section>
 
