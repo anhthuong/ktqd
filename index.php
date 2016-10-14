@@ -252,14 +252,14 @@ hàng đầu về kinh tế và kinh doanh trên thế giới. </p>
                 <section class="section target">
                     <div class="container">
                     <div class="row">
-                        <div class="left col-lg-5 col-md-5">
-                        <h3 class="title">
+                        <div class="left col-lg-6 col-md-6">
+                        <h3 class="title title-custom">
                             Mục tiêu <span class="blue"> đào tạo</span>
                         </h3>
                         <p class="sub-info">
                             Nhằm đào tạo học viên trở thành những nhà lãnh đạo chuyên nghiệp, có đủ năng lực thúc đẩy sự phát triển của tổ chức trên con đường hội nhập, với trọng tâm là mở rộng và nâng cao khả năng xác định tầm nhìn và xây dựng chiến lược, rèn luyện các kỹ năng lãnh đạo và điều hành của người đứng đầu
                         </p>
-                        <div class="subcription">
+                        <div class="subcription subcription-custom">
                             <button class="button">Nhận thông tin khóa học</button>
                         </div>
                         </div>

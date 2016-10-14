@@ -109,7 +109,12 @@ text-align: left;
 }
 .content .section .title p{font-family: utm_neo_bold; font-weight: bold}
 
-.content .section .sub-info{font-size: 16px; line-height: 30px; text-align: center; color: #565656;}
+.content .section .sub-info {
+    font-size: 17px;
+    line-height: 30px;
+    text-align: justify !important;
+    color: #4C4C4C;
+}
 
 /*.section .subcription{text-align: center;}*/
 .section .subcription button{display: inline-block; font-size: 16px; color: #fff; text-transform: uppercase;
@@ -143,7 +148,7 @@ label .blue{font-family: avo_bold; font-weight: bold; font-size: 16px;}
 .content .section.target{height: 600px}
 .content .section.target .title, .content .section.target .sub-info{text-align: left}
 .content .section.target{background-image: url("../images/section-target/bg-target.png");
-    background-repeat: no-repeat; background-position: 80% top;
+    background-repeat: no-repeat; background-position: 90% top;
 }
 .content .section.target .left{padding-top: 150px}
 
@@ -228,6 +233,7 @@ section#contact-form {
     font-weight: bold;
     line-height: 28px;
     margin-bottom: 30px;
+    font-family: 'avo_bold';
 }
 
 p.text-custom {
