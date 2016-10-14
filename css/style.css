@@ -61,6 +61,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
 p{margin: 0}
 span{font-size: inherit; font-family: inherit; font-weight: inherit; line-height: inherit}
 .container{max-width: 1230px}
+.orange{color: #f98e00;}
+.white{color: #fff}
 
 /*Header*/
 .header{
@@ -103,7 +105,8 @@ text-align: left;
     color: #565656;
 
 }
-.content .section.main-info .title:before{
+.content .section.main-info .title:before,
+.content .section.addition-info .title:before{
     content: ""; position: absolute; width: 90px; height: 2px; background-color: #0085bf;
     bottom: 0;
 }
@@ -158,8 +161,35 @@ label .blue{font-family: avo_bold; font-weight: bold; font-size: 16px;}
     background-image: url("../images/section-addition-info/bg.png"); background-repeat: no-repeat; background-position: center center;
 
 }
+.content .section.addition-info .title{text-align: center; color: #f98e00; padding-bottom: 40px}
+.content .section.addition-info .title:before {
+    left: calc(50% - 45px); background-color: #f98e00;
+}
 .content .section.addition-info .title p{color: #fff; font-size: 31px; text-transform: uppercase; font-family: utm_neo;}
 
+/*24px*/
+/*82px*/
+.addition-info .box-content ul li:before, .addition-info .box-content ul li:after{content: ""; display: table; clear: both;}
+.addition-info .box-content ul li{padding: 20px 0}
+.addition-info .box-content .icon{width: 48px; height: 84px; display: block; background-color: rgba(0, 133, 191, 0.6); position: relative;}
+.addition-info .box-content .icon:before, .addition-info .box-content .icon:after{
+    content: ""; position: absolute; border-width: 42px 24px; border-style: solid; top: 0;
+}
+.addition-info .box-content .icon:before{left: -48px; border-color: transparent rgba(0, 133, 191, 0.6) transparent transparent}
+.addition-info .box-content .icon:after{right: -48px; border-color: transparent transparent transparent rgba(0, 133, 191, 0.6)}
+
+.addition-info .left-box{text-align: right; padding-right: 50px}
+.addition-info .tight-box{padding-left: 50px}
+.addition-info .left-box .icon,
+.addition-info .left-box .sub{float: right; text-align: right; margin-right: 50px;}
+.addition-info .right-box .icon,
+.addition-info .right-box .sub{float: left; margin-left: 50px}
+.addition-info .right-box .sub{}
+.addition-info .box-content .sub{padding: 20px 0}
+.addition-info .box-content .sub label, .addition-info .box-content .sub span{display: block; margin: 0}
+.addition-info .box-content .sub label{font-family: avo_bold; font-size: 21px; font-weight: bold; line-height: 22px;}
+.addition-info .box-content .sub span{font-size: 15px; line-height: 22px;}
+/*.addition-info .border-img{background-image: url("")}*/
 /*footer*/
 .footer {
     background-color: #232323;

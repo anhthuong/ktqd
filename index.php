@@ -277,7 +277,65 @@ hàng đầu về kinh tế và kinh doanh trên thế giới. </p>
                             <p class="white">Thông tin</p> khóa học Executive MBA
                         </h3>
                         <div class="content">
-                            dkfjdskjf
+                            <div class="row">
+                                <div class="border-img col-lg-6 col-md-6">
+                                    <div class="left-box box-content">
+                                        <ul>
+                                            <li>
+                                                <span class="icon"></span>
+                                                <div class="sub">
+                                                    <label class="orange">Thụ lí hồ sơ</label>
+                                                    <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <span class="icon"></span>
+                                                <div class="sub">
+                                                    <label class="orange">Thụ lí hồ sơ</label>
+                                                    <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <span class="icon"></span>
+                                                <div class="sub">
+                                                    <label class="orange">Thụ lí hồ sơ</label>
+                                                    <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="right-box box-content">
+                                        <ul>
+                                            <li>
+                                                <span class="icon"></span>
+                                                <div class="sub">
+                                                    <label class="orange">Thụ lí hồ sơ</label>
+                                                    <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <span class="icon"></span>
+                                                <div class="sub">
+                                                    <label class="orange">Thụ lí hồ sơ</label>
+                                                    <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <span class="icon"></span>
+                                                <div class="sub">
+                                                    <label class="orange">Thụ lí hồ sơ</label>
+                                                    <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
                         <div class="subcription">
                             <button class="button">Nhận thông tin khóa học</button>
