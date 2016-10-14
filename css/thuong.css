@@ -211,6 +211,13 @@ section#contact-form {
     padding-top: 20px;
     background-size: 11%;
 }
+.link-action a, .link-action p {
+    font-size: 14px;
+    color: #2D2D2D;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'avo_bold';
+}
 
 
 
