@@ -68,7 +68,7 @@ span{font-size: inherit; font-family: inherit; font-weight: inherit; line-height
 .header{
     min-height: 645px;
     background-image: url("../images/banner-01.png");
-    background-repeat: no-repeat; background-size: cover; background-position: center center;
+    background-repeat: no-repeat; background-size: cover;
     padding-top: 30px;
 }
 .header .header-content{float: right}
@@ -168,6 +168,10 @@ label .blue{font-family: avo_bold; font-weight: bold; font-size: 16px;}
 .content .section.addition-info .title p{color: #fff; font-size: 31px; text-transform: uppercase; font-family: utm_neo;}
 .addition-info .subcription{text-align: center;}
 .addition-info{padding: 65px 0}
+
+
+.slider ul li .img{width: 40%; float: right}
+
 
 /*24px*/
 /*82px*/
