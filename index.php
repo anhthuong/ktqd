@@ -272,7 +272,7 @@ hàng đầu về kinh tế và kinh doanh trên thế giới. </p>
 
 
                 <section class="section addition-info">
-                    <div class="container">
+                    <div class="containeraa">
                         <h3 class="title">
                             <p class="white">Thông tin</p> khóa học Executive MBA
                         </h3>
@@ -282,24 +282,30 @@ hàng đầu về kinh tế và kinh doanh trên thế giới. </p>
                                     <div class="left-box box-content">
                                         <ul>
                                             <li>
-                                                <span class="icon"></span>
-                                                <div class="sub">
-                                                    <label class="orange">Thụ lí hồ sơ</label>
-                                                    <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
+                                                <div class="bg-hover">
+                                                    <span class="icon"></span>
+                                                    <div class="sub">
+                                                        <label class="orange">Thụ lí hồ sơ</label>
+                                                        <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
+                                                    </div>
                                                 </div>
                                             </li>
                                             <li>
-                                                <span class="icon"></span>
-                                                <div class="sub">
-                                                    <label class="orange">Thụ lí hồ sơ</label>
-                                                    <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
+                                                <div class="bg-hover">
+                                                    <span class="icon"></span>
+                                                    <div class="sub">
+                                                        <label class="orange">Thụ lí hồ sơ</label>
+                                                        <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
+                                                    </div>
                                                 </div>
                                             </li>
                                             <li>
-                                                <span class="icon"></span>
-                                                <div class="sub">
-                                                    <label class="orange">Thụ lí hồ sơ</label>
-                                                    <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
+                                                <div class="bg-hover">
+                                                    <span class="icon"></span>
+                                                    <div class="sub">
+                                                        <label class="orange">Thụ lí hồ sơ</label>
+                                                        <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
+                                                    </div>
                                                 </div>
                                             </li>
                                         </ul>
@@ -311,24 +317,30 @@ hàng đầu về kinh tế và kinh doanh trên thế giới. </p>
                                     <div class="right-box box-content">
                                         <ul>
                                             <li>
-                                                <span class="icon"></span>
-                                                <div class="sub">
-                                                    <label class="orange">Thụ lí hồ sơ</label>
-                                                    <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
+                                                <div class="bg-hover">
+                                                    <span class="icon"></span>
+                                                    <div class="sub">
+                                                        <label class="orange">Thụ lí hồ sơ</label>
+                                                        <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
+                                                    </div>
                                                 </div>
                                             </li>
                                             <li>
-                                                <span class="icon"></span>
-                                                <div class="sub">
-                                                    <label class="orange">Thụ lí hồ sơ</label>
-                                                    <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
+                                                <div class="bg-hover">
+                                                    <span class="icon"></span>
+                                                    <div class="sub">
+                                                        <label class="orange">Thụ lí hồ sơ</label>
+                                                        <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
+                                                    </div>
                                                 </div>
                                             </li>
                                             <li>
-                                                <span class="icon"></span>
-                                                <div class="sub">
-                                                    <label class="orange">Thụ lí hồ sơ</label>
-                                                    <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
+                                                <div class="bg-hover">
+                                                    <span class="icon"></span>
+                                                    <div class="sub">
+                                                        <label class="orange">Thụ lí hồ sơ</label>
+                                                        <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
+                                                    </div>
                                                 </div>
                                             </li>
                                         </ul>
