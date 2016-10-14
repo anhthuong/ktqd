@@ -283,7 +283,7 @@ hàng đầu về kinh tế và kinh doanh trên thế giới. </p>
                                         <ul>
                                             <li>
                                                 <div class="bg-hover">
-                                                    <span class="icon"></span>
+                                                    <span class="icon hs"></span>
                                                     <div class="sub">
                                                         <label class="orange">Thụ lí hồ sơ</label>
                                                         <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
@@ -292,7 +292,7 @@ hàng đầu về kinh tế và kinh doanh trên thế giới. </p>
                                             </li>
                                             <li>
                                                 <div class="bg-hover">
-                                                    <span class="icon"></span>
+                                                    <span class="icon kg"></span>
                                                     <div class="sub">
                                                         <label class="orange">Thụ lí hồ sơ</label>
                                                         <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
@@ -301,7 +301,7 @@ hàng đầu về kinh tế và kinh doanh trên thế giới. </p>
                                             </li>
                                             <li>
                                                 <div class="bg-hover">
-                                                    <span class="icon"></span>
+                                                    <span class="icon dd"></span>
                                                     <div class="sub">
                                                         <label class="orange">Thụ lí hồ sơ</label>
                                                         <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
@@ -318,7 +318,7 @@ hàng đầu về kinh tế và kinh doanh trên thế giới. </p>
                                         <ul>
                                             <li>
                                                 <div class="bg-hover">
-                                                    <span class="icon"></span>
+                                                    <span class="icon time"></span>
                                                     <div class="sub">
                                                         <label class="orange">Thụ lí hồ sơ</label>
                                                         <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
@@ -327,7 +327,7 @@ hàng đầu về kinh tế và kinh doanh trên thế giới. </p>
                                             </li>
                                             <li>
                                                 <div class="bg-hover">
-                                                    <span class="icon"></span>
+                                                    <span class="icon hp"></span>
                                                     <div class="sub">
                                                         <label class="orange">Thụ lí hồ sơ</label>
                                                         <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
@@ -336,7 +336,7 @@ hàng đầu về kinh tế và kinh doanh trên thế giới. </p>
                                             </li>
                                             <li>
                                                 <div class="bg-hover">
-                                                    <span class="icon"></span>
+                                                    <span class="icon bc"></span>
                                                     <div class="sub">
                                                         <label class="orange">Thụ lí hồ sơ</label>
                                                         <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>

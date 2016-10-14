@@ -158,7 +158,7 @@ label .blue{font-family: avo_bold; font-weight: bold; font-size: 16px;}
 /*addition info*/
 .content .section.addition-info{
     background-color: rgba(0, 0, 0, 0.7);
-    background-image: url("../images/section-addition-info/bg.png"); background-repeat: no-repeat; background-position: center center;
+    background-image: url("../images/section-addition-info/bg-info.jpg"); background-repeat: no-repeat; background-position: center center;
 
 }
 .content .section.addition-info .title{text-align: center; color: #f98e00; padding-bottom: 40px}
@@ -169,18 +169,20 @@ label .blue{font-family: avo_bold; font-weight: bold; font-size: 16px;}
 
 /*24px*/
 /*82px*/
+.addition-info .box-content ul li{cursor: pointer}
 .addition-info .box-content ul li .bg-hover{position: relative}
 .addition-info .box-content ul li .bg-hover:before, .addition-info .box-content ul li .bg-hover:after{content: ""; display: table; clear: both;}
 .addition-info .box-content ul li{padding: 20px 0; position: relative}
-.addition-info .box-content ul li:before{content: ""; position: absolute; width: calc(100% - 140px); height: calc(100% - 40px); top: 20px; background-color: rgba(0, 133, 191, 0.6)}
+.addition-info .box-content ul li:before{content: ""; position: absolute; width: calc(100% - 158px); height: calc(100% - 40px); top: 20px; background-color: transparent}
+.addition-info .box-content ul li:hover:before{background-color: rgba(0, 133, 191, 0.6)}
 .addition-info .left-box ul li:before{right: 158px}
 .addition-info .right-box ul li:before{left: 158px}
-.addition-info .box-content .icon{width: 48px; height: 84px; display: block; background-color: rgba(0, 133, 191, 0.6); position: relative;}
-.addition-info .box-content .icon:before, .addition-info .box-content .icon:after{
-    content: ""; position: absolute; border-width: 42px 24px; border-style: solid; top: 0;
+.addition-info .box-content .icon{width: 48px; height: 84px; display: block; position: relative;}
+.addition-info .box-content ul li .icon:before, .addition-info .box-content ul li .icon:after{
+    content: ""; position: absolute; border-width: 42px 24px; border-style: solid; top: 0; border-color: transparent;
 }
-.addition-info .box-content .icon:before{left: -48px; border-color: transparent rgba(0, 133, 191, 0.6) transparent transparent}
-.addition-info .box-content .icon:after{right: -48px; border-color: transparent transparent transparent rgba(0, 133, 191, 0.6)}
+.addition-info .box-content ul li:hover .icon:before{left: -48px; border-color: transparent rgba(0, 133, 191, 0.6) transparent transparent}
+.addition-info .box-content ul li:hover .icon:after{right: -48px; border-color: transparent transparent transparent rgba(0, 133, 191, 0.6)}
 
 .addition-info .left-box{text-align: right; padding-right: 50px}
 .addition-info .right-box{padding-left: 50px}
@@ -190,17 +192,40 @@ label .blue{font-family: avo_bold; font-weight: bold; font-size: 16px;}
 .addition-info .right-box .sub{float: left; margin-left: 50px}
 .addition-info .right-box .sub{}
 .addition-info .box-content .sub{padding: 20px 0; position: relative}
-.addition-info .box-content .sub:before{content: ""; position: absolute; border-width: 42px 24px; border-style: solid; top: 0;}
-.addition-info .left-box.box-content .sub:before{right: -38px; border-color: rgba(0, 133, 191, 0.6) transparent rgba(0, 133, 191, 0.6) rgba(0, 133, 191, 0.6)}
-.addition-info .right-box.box-content .sub:before{left: -38px; border-color: rgba(0, 133, 191, 0.6) rgba(0, 133, 191, 0.6) rgba(0, 133, 191, 0.6) transparent}
+.addition-info .box-content ul li .sub:before{content: ""; position: absolute; border-width: 42px 24px; border-style: solid; top: 0; display: none}
+.addition-info .left-box.box-content ul li .sub:before{right: -38px; border-color: rgba(0, 133, 191, 0.6) transparent rgba(0, 133, 191, 0.6) rgba(0, 133, 191, 0.6)}
+.addition-info .right-box.box-content ul li .sub:before{left: -38px; border-color: rgba(0, 133, 191, 0.6) rgba(0, 133, 191, 0.6) rgba(0, 133, 191, 0.6) transparent}
 
 
-.addition-info .box-content .sub label, .addition-info .box-content .sub span{display: block; margin: 0}
+.addition-info .box-content .sub label, .addition-info .box-content .sub span{display: block; margin: 0; position: relative}
 .addition-info .box-content .sub label{font-family: avo_bold; font-size: 21px; font-weight: bold; line-height: 22px;}
 .addition-info .box-content .sub span{font-size: 15px; line-height: 22px;}
 .addition-info .border-img:after{content: ""; position: absolute; height: calc(100% - 30px); top: 15px; right: -24px; width: 48px; background-image: url("../images/timeline.png");
     background-repeat: no-repeat; background-position: center center;
 }
+.addition-info .box-content .icon{background-repeat: no-repeat; background-position: center}
+
+.addition-info .box-content .icon.hs{background-image: url("../images/ico-1-01-active.png"); }
+.addition-info .box-content ul li:hover .icon.hs{background-image: url("../images/ico-1-01.png"); }
+
+.addition-info .box-content .icon.kg{background-image: url("../images/ico-2-01-01-active.png"); }
+.addition-info .box-content ul li:hover .icon.kg{background-image: url("../images/ico-2-01-01.png"); }
+
+.addition-info .box-content .icon.dd{background-image: url("../images/ico-3-01-active.png"); }
+.addition-info .box-content ul li:hover .icon.dd{background-image: url("../images/ico-3-01.png"); }
+
+.addition-info .box-content .icon.time{background-image: url("../images/ico-4-01-active.png"); }
+.addition-info .box-content ul li:hover .icon.time{background-image: url("../images/ico-4-01.png"); }
+
+.addition-info .box-content .icon.hp{background-image: url("../images/ico-5-07-active.png"); }
+.addition-info .box-content ul li:hover .icon.hp{background-image: url("../images/ico-5-07.png"); }
+
+.addition-info .box-content .icon.bc{background-image: url("../images/ico-6-09-active.png"); }
+.addition-info .box-content ul li:hover .icon.bc{background-image: url("../images/ico-6-09.png"); }
+
+.addition-info .box-content ul li:hover .sub:before{display: block}
+.addition-info .box-content ul li:hover .icon{background-color: rgba(0, 133, 191, 0.6);}
+
 /*footer*/
 .footer {
     background-color: #232323;
