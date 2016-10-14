@@ -508,7 +508,7 @@ hàng đầu về kinh tế và kinh doanh trên thế giới. </p>
                                 <form action="" method="post">
                                     <input class="input" type="text" name="name" placeholder="Họ tên*" value="" />
                                     <input class="input" type="text" name="email" placeholder="E-mail*" value="" />
-                                    <input class="input" type="text" class="last-input" name="contact" placeholder="Số điện thoại*" value="" />
+                                    <input class="input last-input" type="text" name="contact" placeholder="Số điện thoại*" value="" />
                                     <textarea rows="5" cols="50" name="address" placeholder="Đơn vị công tác"></textarea>
                                     <input class="submit" type="submit" name="submit" value="Submit" />
 
