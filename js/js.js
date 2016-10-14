@@ -27,7 +27,7 @@ jQuery(document).ready(function($) {
     jQuery('.owl-carousel').owlCarousel({
         //stagePadding: 50,
         loop:true,
-        margin:105,
+        margin:80,
         nav:true,
         responsive:{
             0:{
@@ -47,7 +47,8 @@ jQuery(document).ready(function($) {
     
     
     
-        $('.pgwSlider').pgwSlider();
+        $('.pgwSlider-01').pgwSlider();
+        $('.pgwSlideshow').pgwSlideshow();
         
 });
 

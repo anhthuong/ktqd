@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="lib/owl.carousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="fonts/awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="lib/pgwslider-master/pgwslider.min.css">
+    <link rel="stylesheet" href="lib/PgwSlideshow/pgwslideshow.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/thuong.css">
 
@@ -56,23 +57,23 @@
             </div>
         </div>
     </header>
-    <div class="main-slide">
-        img
-    </div>
+    
     <main>
         <div class="content">
             <div class="containersfd">
                 <section class="section main-info">
                     <div class="container">
-                        <h3 class="title">
-                            Giới thiệu về <p>khóa học executive MBA</p>
+                        <h3 class="title title-custom">
+                            Giới thiệu về <p><span class="blue">khóa học executive MBA</span></p>
                         </h3>
-                        <p class="sub-info">
-                            Executive MBA là loại hình đào tạo dành riêng cho các cán bộ quản lý cấp cao, được phát triển tại hầu hết các trường đại học hàng đầu về kinh tế và kinh doanh trên thế giới. Tại Đại học Kinh tế quốc dân, Chương trình thạc sĩ Điều hành cao cấp được phát triển dựa trên kết quả hợp tác giữa nhà
-                            trường với các đối tác là các trường đại học lớn trên thế giới. Chương trình được xây dựng theo mô hình tiên tiến, hiện đại
-                            và phù hợp với điều kiện Việt Nam.
-                        </p>
-                        <div class="subcription">
+                        <div class="content-ticker">
+                            <p>Executive MBA là loại hình đào tạo dành riêng cho các cán bộ quản lý cấp cao, được phát triển tại hầu hết các trường đại học
+hàng đầu về kinh tế và kinh doanh trên thế giới. </p>
+                            <p>Tại Đại học Kinh tế quốc dân, Chương trình thạc sĩ Điều hành cao cấp được phát triển dựa trên kết quả hợp tác giữa nhà trường với các
+đối tác là các trường đại học lớn trên thế giới.</p>
+                            <p>Chương trình được xây dựng theo mô hình tiên tiến, hiện đại và phù hợp với điều kiện Việt Nam.</p>
+                        </div>
+                        <div class="subcription subcription-custom">
                             <button class="button">Nhận thông tin khóa học</button>
                         </div>
                     </div>
@@ -81,25 +82,35 @@
                 <section class="section more-info">
                     <div class="container">
                     <div class="row">
-                        <div class="col-md-6 col-lg-6">
-                            <img class="img-responsive" src="images/section-more-info/left-img.jpg"/>
+                        <div class="col-md-5 col-lg-5">
+                            <img class="img-responsive" src="images/section-more-info/left-img.png"/>
                         </div>
-                        <div class="program col-md-6 col-lg-6">
-                            <h3 class="title">
+                        <div class="program col-md-7 col-lg-7">
+                            <h3 class="title title-custom">
                                 Ưu thế vượt trội của chương trình <span class="blue">Executive MBA</span>
                             </h3>
                             <div class="content">
                                 <label for="id1">Chương trình đào tạo <span class="blue">hiện đại, tính ứng dụng cao</span></label>
                                 <input name="type-drop" id="id1" type="radio" checked="checked" />
                                 <div class="content-box content1">
-                                    <p>
-                                    Lorem ipsum dolor sit amet, at mollis, ultrices velit et, ultrices et viverra nunc ipsum platea, sit amet, aliquam et morbi. Nostra eget scelerisque, accumsan nisl quam ipsum pellentesque, hac urna wisi nulla porta mollis et. Et lorem turpis egestas, aenean ullamcorper scelerisque etiam at ut, mi lacus, fusce quisque turpis tortor ullamcorper, in eleifend dolor tincidunt in lacus ad. Sed nec praesent quam. Sapien massa dictum pede class donec dui, dolore pede nibh faucibus facilisis sed convallis. Mollis adipiscing volutpat pulvinar, donec sed vehicula libero, vivamus blandit lacus, praesent etiam magna mattis nec mollis mauris. Nonummy euismod non ipsum erat id ac, eget ut vestibulum est in fermentum leo. Vestibulum ipsum hendrerit dolor mauris condimentum, ridiculus sapien et at urna nulla. Mauris at ultricies.
-                                    </p>
+                                    <p>Tương đồng với các chương trình EMBA tiên tiến trên thế giới</p>
+                                    <p>Trang bị những kiến thức và kỹ năng cần thiết nhất cho nhà quản lý</p>
+                                    <p>Chia sẻ kinh nghiệm với các nhà quản lý doanh nhân hàng đầu trong nước và quốc tế</p>
+                                    <p>Học tập thực tiễn các mô hình quản trị mới tại địa phương, doanh nghiệp</p>
                                 </div>
-                                <label for="id2">Chương trình đào tạo <span class="blue">hiện đại, tính ứng dụng cao</span></label>
+                                <label for="id2">PHƯƠNG PHÁP TỔ CHỨC ĐÀO TẠO <span class="blue">LINH HOẠT, PHÙ HỢP</span></label>
                                 <input name="type-drop" id="id2" type="radio" />
                                 <div class="content-box content2">
-                                    Lorem ipsum dolor sit amet, at mollis, ultrices velit et, ultrices et viverra nunc ipsum platea, sit amet, aliquam et morbi. Nostra eget scelerisque, accumsan nisl quam ipsum pellentesque, hac urna wisi nulla porta mollis et. Et lorem turpis egestas, aenean ullamcorper scelerisque etiam at ut, mi lacus, fusce quisque turpis tortor ullamcorper, in eleifend dolor tincidunt in lacus ad. Sed nec praesent quam. Sapien massa dictum pede class donec dui, dolore pede nibh faucibus facilisis sed convallis. Mollis adipiscing volutpat pulvinar, donec sed vehicula libero, vivamus blandit lacus, praesent etiam magna mattis nec mollis mauris. Nonummy euismod non ipsum erat id ac, eget ut vestibulum est in fermentum leo. Vestibulum ipsum hendrerit dolor mauris condimentum, ridiculus sapien et at urna nulla. Mauris at ultricies.
+                                    <p>Phương pháp giảng dậy kết hợp giữa trang bị kiến thức, phân tích tình huống và thực tế </p>
+                                    <p>Các giảng viên hàng đầu và điều kiện trang thiết bị hiện đại</p>
+                                    <p>Hệ thồng quản lý và hỗ trợ đào tạo chuyên nghiệp</p>
+                                    <p>Khóa học thực hiện vào các ngày cuối tuần</p>
+                                </div>
+                                <label for="id3">NỘI DUNG VÀ PHƯƠNG PHÁP GIẢNG DẠY <span class="blue">HIỆN ĐẠI, HIỆU QUẢ</span></label>
+                                <input name="type-drop" id="id3" type="radio" />
+                                <div class="content-box content3">
+                                    <p>Mỗi học phần và luận văn bám sát việc giải quyết tình huống quản lý thực tiễn người học</p>
+                                    <p>Phát huy tối đa các cơ hội chia sẻ kinh nghiệm và khả năng kết nôi giữa các học viên</p>
                                 </div>
                             </div>
                             <div class="subcription">
@@ -109,127 +120,130 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-lg-3 col-md-3">
-                            <h3 class="title">
-                                Môi trường <span class="blue">học viên xuất sắc</span>
-                            </h3>
-                            <div class="content">
-                                <p class="sub-info">
-                                    Tham gia khóa học, các học viên có cơ hội mở rộng quan hệ, tiếp xúc và được chia sẻ, học hỏi kinh nghiệm từ những những học viên khác, đều là các nhà lãnh đạo doanh nghiệp hay nhà nước.
-                                </p>
-                            </div>
-                            <div class="subcription">
-                                <button class="button">Nhận thông tin khóa học</button>
-                            </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="wrap-cutome-margin">
+                                <h3 class="title title-custom">
+                                    Môi trường <p><span class="blue">học viên xuất sắc</span></p>
+                                </h3>
+                                <div class="content">
+                                    <p class="sub-info sub-info-custom">
+                                        Tham gia khóa học, các học viên có cơ hội mở rộng quan hệ, tiếp xúc và được chia sẻ, học hỏi kinh nghiệm từ những những học viên khác, đều là các nhà lãnh đạo doanh nghiệp hay nhà nước.
+                                    </p>
+                                </div>
+                                <div class="subcription">
+                                    <button class="button">Nhận thông tin khóa học</button>
+                                </div>
+                            </div>                            
                         </div>
-                        <div class="col-lg-9 col-md-9">
-                            <div class="tab-container">
-                                <ul class="student owl-carousel">
-                                        <li>
-                                            <div><img src="images/img-1.jpg"></div>
-                                            <h3 class="name">Th.S Duong Tat Thang</h3>
-                                            <p class="detail">Tổng giám đốc công ty á long</p>
-                                            <div class="social">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#"><span class="fa fa-facebook"></span></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"><span class="fa fa-twitter"></span></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"><span class="fa fa-tumblr"></span></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"><span class="fa fa-rss"></span></a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div><img src="images/img-2.jpg"></div>
-                                            <h3>Th.S Duong Tat Thang</h3>
-                                            <div class="social">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#"><span class="fa fa-facebook"></span></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"><span class="fa fa-twitter"></span></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"><span class="fa fa-tumblr"></span></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"><span class="fa fa-rss"></span></a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div><img src="images/img-3.jpg"></div>
-                                            <h3 class="name">Th.S Duong Tat Thang</h3>
-                                            <p class="detail">Tổng giám đốc công ty á long</p>
-                                            <div class="social">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#"><span class="fa fa-facebook"></span></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"><span class="fa fa-twitter"></span></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"><span class="fa fa-tumblr"></span></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"><span class="fa fa-rss"></span></a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div><img src="images/img-2.jpg"></div>
-                                            <h3 class="name">Th.S Duong Tat Thang</h3>
-                                            <p class="detail">Tổng giám đốc công ty á long</p>
-                                            <div class="social">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#"><span class="fa fa-facebook"></span></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"><span class="fa fa-twitter"></span></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"><span class="fa fa-tumblr"></span></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"><span class="fa fa-rss"></span></a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div><img src="images/img-3.jpg"></div>
-                                            <h3 class="name">Th.S Duong Tat Thang</h3>
-                                            <p class="detail">Tổng giám đốc công ty á long</p>
-                                            <div class="social">
-                                                <ul>
-                                                    <li>
-                                                        <a href="#"><span class="fa fa-facebook"></span></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"><span class="fa fa-twitter"></span></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"><span class="fa fa-tumblr"></span></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"><span class="fa fa-rss"></span></a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                    </ul>
+                        <div class="col-lg-8 col-md-8">
+                            <div class="wrap-cutome-margin">
+                                <div class="tab-container">
+                                    <ul class="student owl-carousel owl-carousel-slide1">
+                                            <li>
+                                                <div class="wrap-img"><img src="images/img-2.jpg"></div>
+                                                <h3 class="name">H.V LÊ THÀNH QUÂN</h3>
+                                                <p class="detail">VỤ TRƯỞNG, CHỦ TỊCH CÔNG ĐOÀN BỘ KH&DT </p>
+                                                <div class="social">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#"><span class="fa fa-twitter"></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><span class="fa fa-rss"></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><span class="fa fa-tumblr"></span></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="wrap-img"><img src="images/img-1.jpg"></div>
+                                                <h3 class="name">Th.S Lê Đức Thuấn</h3>
+                                                <p class="detail">TỔNG GIÁM ĐỐC CÔNG TY Á LONG</p>
+                                                <div class="social">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#"><span class="fa fa-facebook"></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><span class="fa fa-twitter"></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><span class="fa fa-tumblr"></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><span class="fa fa-rss"></span></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="wrap-img"><img src="images/img-3.jpg"></div>
+                                                <h3 class="name">th.s dương tất thắng</h3>
+                                                <p class="detail">PHÓ CHỦ TỊCH UBND TỈNH HÀ TĨNH</p>
+                                                <div class="social">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#"><span class="fa fa-facebook"></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><span class="fa fa-twitter"></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><span class="fa fa-tumblr"></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><span class="fa fa-rss"></span></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div><img src="images/img-2.jpg"></div>
+                                                <h3 class="name">Th.S Duong Tat Thang</h3>
+                                                <p class="detail">Tổng giám đốc công ty á long</p>
+                                                <div class="social">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#"><span class="fa fa-facebook"></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><span class="fa fa-twitter"></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><span class="fa fa-tumblr"></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><span class="fa fa-rss"></span></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div><img src="images/img-3.jpg"></div>
+                                                <h3 class="name">Th.S Duong Tat Thang</h3>
+                                                <p class="detail">Tổng giám đốc công ty á long</p>
+                                                <div class="social">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#"><span class="fa fa-facebook"></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><span class="fa fa-twitter"></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><span class="fa fa-tumblr"></span></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><span class="fa fa-rss"></span></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -274,37 +288,34 @@
                 <section class="section group action">
                     <div class="container">
                         <h3 class="title">
-                            01/ các hoạt động nổi bật
+                            <span class="number">01 </span>các hoạt động nổi bật
                         </h3>
-                        <p class="info">Ngoài các hoạt động ở trường lớp, các học viên còn được tham gia vào các chuyến đi học thực tế,  nhằm tạo ra môi trường giao lưu, chia sẻ và học hỏi kinh nghiệm lẫn nhau.</p>
-                        <div class="subcription">
-                            <button class="button">Nhận thông tin khóa học</button>
-                        </div>
-                        <div class="content">
-                            <div class="left">
-                                img
-                            </div>
-                            <div class="right">
-                                <ul class="list-img">
-                                    <li class="item">img</li>
-                                    <li class="item">img</li>
-                                    <li class="item">img</li>
-                                </ul>
+                        <div class="content-01">
+                            <div class="row">
+                                <div class="col-lg-8 col-md-8 col-sm-8">
+                                    <p class="info">Ngoài các hoạt động ở trường lớp, các học viên còn được tham gia vào các chuyến đi học thực tế,  nhằm tạo ra môi trường giao lưu, chia sẻ và học hỏi kinh nghiệm lẫn nhau.</p>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4">
+                                    <div class="subcription">
+                                        <button class="button">Nhận thông tin khóa học</button>
+                                    </div>
+                                </div>
                             </div>
                             
-                            <ul class="pgwSlider">
-                                <li><img src="lib/slider-01/paris.jpg" alt="Paris, France" data-description="Eiffel Tower and Champ de Mars"></li>
-                                <li><img src="lib/slider-01/montreal.jpg" alt="Montréal, QC, Canada" data-large-src="lib/slider-01/montreal.jpg"></li>
-                                <li>
-                                    <img src="lib/slider-01/shanghai.jpg">
-                                    <span>Shanghai, China</span>
-                                </li>
-                                <li>
-                                    <a href="http://www.nyc.gov" target="_blank">
-                                        <img src="lib/slider-01/new-york.jpg">
-                                        <span>New York, NY, USA</span>
-                                    </a>
-                                </li>
+                        </div>
+                        <div class="content slide-01">
+                            <ul class="pgwSlider pgwSlider-01">
+                                <li><img src="lib/slider-01/01-slide-01.jpg"></li>
+                                <li><img src="lib/slider-01/02-slide-01.jpg" ></li>
+                                <li><img src="lib/slider-01/03-slide-01.jpg"></li>
+                                <li><img src="lib/slider-01/04-slide-01.jpg"></li>
+                                <li><img src="lib/slider-01/05-slide-01.jpg"></li>
+                                <li><img src="lib/slider-01/06-slide-01.jpg"></li>
+                                <li><img src="lib/slider-01/07-slide-01.jpg"></li>
+                                <li><img src="lib/slider-01/08-slide-01.jpg"></li>
+                                <li><img src="lib/slider-01/09-slide-01.jpg"></li>
+                                <li><img src="lib/slider-01/10-slide-01.jpg"></li>
+                                <li><img src="lib/slider-01/11-slide-01.jpg"></li>
                             </ul>
                             
                         </div>
@@ -314,9 +325,9 @@
                 <section class="section group action">
                     <div class="container">
                         <h3 class="title">
-                            02/ Đội ngũ giảng viên
+                            <span class="number">02 </span>Đội ngũ giảng viên
                         </h3>
-                        <p class="sub-info">Ngoài các hoạt động ở trường lớp, các học viên còn được tham gia vào các chuyến đi học thực tế,  nhằm tạo ra môi trường giao lưu, chia sẻ và học hỏi kinh nghiệm lẫn nhau.</p>
+                        <p class="sub-info">Tham gia giảng dạy là những giảng viên được lựa chọn, có nhiều kinh nghiệm giảng dạy và tư vấn cho các tổ chức doanh nghiệp lớn trong và ngoài nước. Một số chuyên đề có giảng viên là các doanh nhân thành đạt, nhà quản lý, điều hành giàu kinh  nghiệm báo cáo và chia sẻ kinh nghiệm thông qua các  buổi seminar.</p>
                         <div class="subcription">
                             <button class="button">Nhận thông tin khóa học</button>
                         </div>
@@ -332,6 +343,41 @@
                                 </ul>
                             </div>
                         </div>
+                        
+                        
+                        
+                        
+                        
+                        <ul class="pgwSlideshow pgwSlider-02">
+                            <li>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <p>Phó giáo sư, tiến sỹ</p>
+                                    <h2>TRẦN THỊ VÂN HOA</h2>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <img src="lib/slider-01/01-slide-01.jpg">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <p>Phó giáo sư, tiến sỹ</p>
+                                    <h2>TRẦN THỊ VÂN TAY</h2>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <img src="lib/slider-01/02-slide-01.jpg">
+                                </div>
+                            </li>
+                            <li><img src="lib/slider-01/02-slide-01.jpg" ></li>
+                            <li><img src="lib/slider-01/03-slide-01.jpg"></li>
+                            <li><img src="lib/slider-01/04-slide-01.jpg"></li>
+                            <li><img src="lib/slider-01/05-slide-01.jpg"></li>
+                            <li><img src="lib/slider-01/06-slide-01.jpg"></li>
+                            <li><img src="lib/slider-01/07-slide-01.jpg"></li>
+                            <li><img src="lib/slider-01/08-slide-01.jpg"></li>
+                            <li><img src="lib/slider-01/09-slide-01.jpg"></li>
+                            <li><img src="lib/slider-01/10-slide-01.jpg"></li>
+                            <li><img src="lib/slider-01/11-slide-01.jpg"></li>
+                        </ul>
                     </div>
                 </section>
 
@@ -340,7 +386,7 @@
                     <div class="container">
                         <div class="top">
                             <h3 class="title">
-                                03/ Cảm nhận của học viên
+                                <span class="number">03 </span>Cảm nhận của học viên
                             </h3>
                             <p class="sub-info">Tham gia giảng dạy là những giảng viên được lựa chọn, có nhiều kinh nghiệm giảng dạy và tư vấn cho các tổ chức doanh nghiệp lớn trong và ngoài nước. Một số chuyên đề có giảng viên là các doanh nhân thành đạt, nhà quản lý, điều hành giàu kinh  nghiệm báo cáo và chia sẻ kinh nghiệm thông qua các  buổi seminar.</p>
                             <div class="subcription">
@@ -467,6 +513,7 @@
 
 <script type="text/javascript" src="lib/jquery.js"></script>
 <script type="text/javascript" src="lib/pgwslider-master/pgwslider.min.js"></script>
+<script type="text/javascript" src="lib/PgwSlideshow/pgwslideshow.min.js"></script>
 <script type="text/javascript" src="lib/owl.carousel/owl.carousel.min.js"></script>
 <script type="text/javascript" src="js/js.js"></script>
               
