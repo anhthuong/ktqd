@@ -493,26 +493,23 @@ hàng đầu về kinh tế và kinh doanh trên thế giới. </p>
                                 <p>với chúng tôi để nhận thông tin khóa học</p>
                                 </h3>
                             </div>
-                            <div class="line-contact"></div>
-                            <div class="col-lg-4 col-md-4 col-sm-4 wrap-address">
-                                <h4>Địa chỉ của chúng tôi</h4>
-                                <p class="text-custom">Trường Đại học Kinh tế Quốc dân</p>
-                                <p class="text">207 đường Giải Phóng, Q. Hai Bà Trưng, Hà Nội</p>
-                                <p class="text-custom">Email</p>
-                                <p class="text">viensdh@neu.edu.vn</p>
-                                <p class="text-custom">Tel: (04) 36 280 280, ext: 5689, 5671, 5692</p>
+                            <div class="line-contact"><img src="images/line-contact-png-01.png"></div>
+                            <div class="col-lg-5 col-md-5 col-sm-5 wrap-address">
+                                <div class="wrap-contact-left">
+                                    <h4>Địa chỉ của chúng tôi</h4>
+                                    <p class="text-custom">Trường Đại học Kinh tế Quốc dân</p>
+                                    <p class="text">207 đường Giải Phóng, Q. Hai Bà Trưng, Hà Nội</p>
+                                    <p class="text-custom">Email</p>
+                                    <p class="text">viensdh@neu.edu.vn</p>
+                                    <p class="text-custom">Tel: (04) 36 280 280, ext: 5689, 5671, 5692</p>
+                                </div>                                
                             </div>
-                            <div class="col-lg-8 col-md-8 col-sm-8 form-contact-action">
-                                <form action="" method="post">    <!-- method can be set POST for hiding values in URL-->
-
+                            <div class="col-lg-7 col-md-7 col-sm-7 form-contact-action">
+                                <form action="" method="post">
                                     <input class="input" type="text" name="name" placeholder="Họ tên*" value="" />
-
                                     <input class="input" type="text" name="email" placeholder="E-mail*" value="" />
-
-                                    <input class="input" type="text" name="contact" placeholder="Số điện thoại*" value="" />
-
+                                    <input class="input" type="text" class="last-input" name="contact" placeholder="Số điện thoại*" value="" />
                                     <textarea rows="5" cols="50" name="address" placeholder="Đơn vị công tác"></textarea>
-
                                     <input class="submit" type="submit" name="submit" value="Submit" />
 
                                     <?php

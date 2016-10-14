@@ -150,8 +150,26 @@ p.info {
 .social ul li:hover a {
     color: #0085BF;
 }
-
-
+.section.section.target{
+    margin-bottom: -1px;
+}
+p.text-custom {
+    font-size: 18px;
+    color: #F98E00;
+    line-height: 21px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.line-contact {
+    padding: 30px 0 50px 0;
+    text-align: center;
+}
+.form-contact-action textarea{
+    width: 100%;
+}
+.form-contact-action .input.last-input{
+    
+}
 
 
 
