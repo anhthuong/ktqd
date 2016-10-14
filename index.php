@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="lib/owl.carousel/owl.carousel.min.css">
     <link rel="stylesheet" href="lib/owl.carousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="fonts/awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lib/pgwslider-master/pgwslider.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/thuong.css">
 
@@ -290,6 +291,22 @@
                                     <li class="item">img</li>
                                 </ul>
                             </div>
+                            
+                            <ul class="pgwSlider">
+                                <li><img src="lib/slider-01/paris.jpg" alt="Paris, France" data-description="Eiffel Tower and Champ de Mars"></li>
+                                <li><img src="lib/slider-01/montreal.jpg" alt="Montréal, QC, Canada" data-large-src="lib/slider-01/montreal.jpg"></li>
+                                <li>
+                                    <img src="lib/slider-01/shanghai.jpg">
+                                    <span>Shanghai, China</span>
+                                </li>
+                                <li>
+                                    <a href="http://www.nyc.gov" target="_blank">
+                                        <img src="lib/slider-01/new-york.jpg">
+                                        <span>New York, NY, USA</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            
                         </div>
                     </div>
                 </section>
@@ -297,7 +314,7 @@
                 <section class="section group action">
                     <div class="container">
                         <h3 class="title">
-                            01/ các hoạt động nổi bật
+                            02/ Đội ngũ giảng viên
                         </h3>
                         <p class="sub-info">Ngoài các hoạt động ở trường lớp, các học viên còn được tham gia vào các chuyến đi học thực tế,  nhằm tạo ra môi trường giao lưu, chia sẻ và học hỏi kinh nghiệm lẫn nhau.</p>
                         <div class="subcription">
@@ -323,9 +340,9 @@
                     <div class="container">
                         <div class="top">
                             <h3 class="title">
-                                02/ các hoạt động nổi bật
+                                03/ Cảm nhận của học viên
                             </h3>
-                            <p class="sub-info">Ngoài các hoạt động ở trường lớp, các học viên còn được tham gia vào các chuyến đi học thực tế,  nhằm tạo ra môi trường giao lưu, chia sẻ và học hỏi kinh nghiệm lẫn nhau.</p>
+                            <p class="sub-info">Tham gia giảng dạy là những giảng viên được lựa chọn, có nhiều kinh nghiệm giảng dạy và tư vấn cho các tổ chức doanh nghiệp lớn trong và ngoài nước. Một số chuyên đề có giảng viên là các doanh nhân thành đạt, nhà quản lý, điều hành giàu kinh  nghiệm báo cáo và chia sẻ kinh nghiệm thông qua các  buổi seminar.</p>
                             <div class="subcription">
                                 <button class="button">Nhận thông tin khóa học</button>
                             </div>
@@ -449,7 +466,9 @@
 
 
 <script type="text/javascript" src="lib/jquery.js"></script>
+<script type="text/javascript" src="lib/pgwslider-master/pgwslider.min.js"></script>
 <script type="text/javascript" src="lib/owl.carousel/owl.carousel.min.js"></script>
 <script type="text/javascript" src="js/js.js"></script>
+              
 </body>
 </html>

@@ -1,14 +1,9 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Oct 13, 2016, 12:39:03 AM
-    Author     : Administrator
-*/
+/*Section 01 - CÁC HOẠT ĐỘNG NỔI BẬT*/
+ul.pgwSlider.wide>li.elt_2, .pgwSlider.wide>ul>li.elt_2, 
+ul.pgwSlider.wide>li.elt_3, .pgwSlider.wide>ul>li.elt_3,
+ul.pgwSlider.wide>li.elt_5, .pgwSlider.wide>ul>li.elt_5,
+ul.pgwSlider.wide>li.elt_6, .pgwSlider.wide>ul>li.elt_6
 
-*{
-    font-size: 12px;
+{
+    width: 50% !important;
 }
-

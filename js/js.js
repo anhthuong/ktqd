@@ -44,4 +44,14 @@ jQuery(document).ready(function($) {
             }
         }
     });
+    
+    
+    
+        $('.pgwSlider').pgwSlider();
+        
 });
+
+//jQuery(document).ready(function($) {
+//        
+//
+//    });
