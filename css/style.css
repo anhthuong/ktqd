@@ -232,6 +232,31 @@ label .blue{font-family: avo_bold; font-weight: bold; font-size: 16px;}
 .addition-info .box-content ul li:hover .sub:before{display: block}
 .addition-info .box-content ul li:hover .icon{background-color: rgba(0, 133, 191, 0.6);}
 
+
+/*section staff*/
+.staff .content{position: relative}
+.staff .content .genaral{position: absolute; width: 50%; top:0; left: 0; z-index: 99}
+.staff .content .genaral .subcription{margin-top: 100px}
+.staff .content .slider ul li .staff-info{display: inline-block; margin-top: 23%}
+
+/*section fell*/
+.feedback input[name="group-fell"]{display: none}
+/*.feedback .box-content .item{*/
+    /*display: none;*/
+/*}*/
+.feedback .box-content-wrap .wrap-item .item{
+    display: none;
+}
+/*.feedback .box-content-wrap .item{*/
+    /*display: none;*/
+/*}*/
+
+.feedback .box-content-wrap .wrap-item input[name="group-fell"]:checked ~ .item{display: block}
+/*.feedback .box-content-wrap .wrap-item input[checked="checked"] + .item{display: block}*/
+
+
+
+
 /*footer*/
 .footer {
     background-color: #232323;
@@ -343,3 +368,19 @@ p.text {
 .form-contact-action .input:last-child {
     margin-right: 0;
 }
+
+
+
+
+/*Popup*/
+#register-popup{display: none; text-align: center}
+#register-popup.active{display: block; position: fixed; top: 0; bottom: 0; left: 0; right: 0; z-index: 9999}
+#register-popup.active .overlay{background-color: rgba(0, 0, 0, 0.6); width: 100%; height: 100%; position: absolute}
+
+#register-popup .get-content{
+    display: inline-block; float: none; background-color: #fff; height: 300px; top: calc(50% - 150px);
+    left: 20.83332%;
+}
+
+
+

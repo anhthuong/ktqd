@@ -22,7 +22,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-3">
-                <a href="#" class="logo"><img src="images/logo.png"></a>
+                <a href="#" class="logo"><img class="img-responsive" src="images/logo.png"></a>
             </div>
             <div class="col-lg-9 col-md-9">
                 <div class="header-content">
@@ -78,7 +78,7 @@
             <p>Chương trình được xây dựng theo mô hình tiên tiến, hiện đại và phù hợp với điều kiện Việt Nam.</p>
         </div>
         <div class="subcription subcription-custom">
-            <button class="button">Nhận thông tin khóa học</button>
+            <button class="register-button" class="button">Nhận thông tin khóa học</button>
         </div>
     </div>
 </section>
@@ -130,7 +130,7 @@
                     </div>
                 </div>
                 <div class="subcription">
-                    <button class="button">Nhận thông tin khóa học</button>
+                    <button class="register-button" class="button">Nhận thông tin khóa học</button>
                 </div>
             </div>
         </div>
@@ -148,25 +148,16 @@
                         </p>
                     </div>
                     <div class="subcription">
-                        <button class="button">Nhận thông tin khóa học</button>
+                        <button class="register-button" class="button">Nhận thông tin khóa học</button>
                     </div>
                 </div>
             </div>
             <div class="col-lg-8 col-md-8">
                 <div class="wrap-cutome-margin">
                     <div class="tab-container">
-                        <ul class="student owl-carousel owl-carousel-slide1"
-                            data-dots="false"
-                            data-loop="true"
-                            data-nav = "true"
-                            data-margin = "80"
-                            data-autoplayTimeout="1000"
-                            data-autoplay="true"
-                            data-autoplayHoverPause = "true"
-                            data-responsive='{"0":{"items":1},"480":{"items":2},"640":{"items":3}, "991":{"items":3},"1200":{"items":3}}'
-                            >
+                        <ul class="student owl-carousel owl-carousel-slide1">
                             <li>
-                                <div class="wrap-img"><img src="images/img-2.jpg"></div>
+                                <div class="wrap-img"><img class="img-responsive" src="images/img-2.jpg"></div>
                                 <h3 class="name">H.V LÊ THÀNH QUÂN</h3>
 
                                 <p class="detail">VỤ TRƯỞNG, CHỦ TỊCH CÔNG ĐOÀN BỘ KH&DT </p>
@@ -186,7 +177,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="wrap-img"><img src="images/img-1.jpg"></div>
+                                <div class="wrap-img"><img class="img-responsive" src="images/img-1.jpg"></div>
                                 <h3 class="name">Th.S Lê Đức Thuấn</h3>
 
                                 <p class="detail">TỔNG GIÁM ĐỐC CÔNG TY Á LONG</p>
@@ -209,7 +200,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div class="wrap-img"><img src="images/img-3.jpg"></div>
+                                <div class="wrap-img"><img class="img-responsive" src="images/img-3.jpg"></div>
                                 <h3 class="name">th.s dương tất thắng</h3>
 
                                 <p class="detail">PHÓ CHỦ TỊCH UBND TỈNH HÀ TĨNH</p>
@@ -232,7 +223,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div><img src="images/img-2.jpg"></div>
+                                <div><img class="img-responsive" src="images/img-2.jpg"></div>
                                 <h3 class="name">Th.S Duong Tat Thang</h3>
 
                                 <p class="detail">Tổng giám đốc công ty á long</p>
@@ -255,7 +246,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div><img src="images/img-3.jpg"></div>
+                                <div><img class="img-responsive" src="images/img-3.jpg"></div>
                                 <h3 class="name">Th.S Duong Tat Thang</h3>
 
                                 <p class="detail">Tổng giám đốc công ty á long</p>
@@ -300,7 +291,7 @@
                 </p>
 
                 <div class="subcription subcription-custom">
-                    <button class="button">Nhận thông tin khóa học</button>
+                    <button class="register-button" class="button">Nhận thông tin khóa học</button>
                 </div>
             </div>
             <!--                        <div class="col-lg-7 col-md-7">-->
@@ -396,7 +387,7 @@
             </div>
         </div>
         <div class="subcription">
-            <button class="button">Nhận thông tin khóa học</button>
+            <button class="register-button" class="button">Nhận thông tin khóa học</button>
         </div>
     </div>
 </section>
@@ -415,7 +406,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4">
                     <div class="subcription">
-                        <button class="button">Nhận thông tin khóa học</button>
+                        <button class="register-button" class="button">Nhận thông tin khóa học</button>
                     </div>
                 </div>
             </div>
@@ -423,24 +414,24 @@
         </div>
         <div class="content slide-01">
             <ul class="pgwSlider pgwSlider-01">
-                <li><img src="lib/slider-01/01-slide-01.jpg"></li>
-                <li><img src="lib/slider-01/02-slide-01.jpg"></li>
-                <li><img src="lib/slider-01/03-slide-01.jpg"></li>
-                <li><img src="lib/slider-01/04-slide-01.jpg"></li>
-                <li><img src="lib/slider-01/05-slide-01.jpg"></li>
-                <li><img src="lib/slider-01/06-slide-01.jpg"></li>
-                <li><img src="lib/slider-01/07-slide-01.jpg"></li>
-                <li><img src="lib/slider-01/08-slide-01.jpg"></li>
-                <li><img src="lib/slider-01/09-slide-01.jpg"></li>
-                <li><img src="lib/slider-01/10-slide-01.jpg"></li>
-                <li><img src="lib/slider-01/11-slide-01.jpg"></li>
+                <li><img class="img-responsive" src="lib/slider-01/01-slide-01.jpg"></li>
+                <li><img class="img-responsive" src="lib/slider-01/02-slide-01.jpg"></li>
+                <li><img class="img-responsive" src="lib/slider-01/03-slide-01.jpg"></li>
+                <li><img class="img-responsive" src="lib/slider-01/04-slide-01.jpg"></li>
+                <li><img class="img-responsive" src="lib/slider-01/05-slide-01.jpg"></li>
+                <li><img class="img-responsive" src="lib/slider-01/06-slide-01.jpg"></li>
+                <li><img class="img-responsive" src="lib/slider-01/07-slide-01.jpg"></li>
+                <li><img class="img-responsive" src="lib/slider-01/08-slide-01.jpg"></li>
+                <li><img class="img-responsive" src="lib/slider-01/09-slide-01.jpg"></li>
+                <li><img class="img-responsive" src="lib/slider-01/10-slide-01.jpg"></li>
+                <li><img class="img-responsive" src="lib/slider-01/11-slide-01.jpg"></li>
             </ul>
 
         </div>
     </div>
 </section>
 
-<section class="section group action">
+<section class="section group staff">
     <div class="container">
         <div class="content">
             <div class="genaral">
@@ -454,20 +445,11 @@
                     seminar.</p>
 
                 <div class="subcription">
-                    <button class="button">Nhận thông tin khóa học</button>
+                    <button class="register-button" class="button">Nhận thông tin khóa học</button>
                 </div>
             </div>
             <div class="slider">
-                <ul class="owl-carousel2 set-dot"
-                    data-dots="true"
-                    data-loop="true"
-                    data-nav = "false"
-                    data-margin = "0"
-                    data-autoplayTimeout="1000"
-                    data-autoplay="true"
-                    data-autoplayHoverPause = "true"
-                    data-responsive='{"0":{"items":1},"480":{"items":1},"640":{"items":1}, "991":{"items":1},"1200":{"items":1}}'
-                    >
+                <ul class="owl-carousel set-dot">
                     <li class="item">
                         <div class="staff-info">
                             <p>Phó giáo sư, tiến sĩ</p>
@@ -506,7 +488,12 @@
                         </div>
                     </li>
                 </ul>
-
+                <div class="dots-data">
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                </div>
 
 
 
@@ -517,7 +504,7 @@
 </section>
 
 
-<section class="section group staff">
+<section class="section group feedback">
     <div class="container">
         <div class="top">
             <h3 class="title">
@@ -530,25 +517,67 @@
                 buổi seminar.</p>
 
             <div class="subcription">
-                <button class="button">Nhận thông tin khóa học</button>
+                <button class="register-button" class="button">Nhận thông tin khóa học</button>
             </div>
         </div>
         <div class="slide">
             <div class="">
-                <ul class="list-img">
-                    <li class="item">img</li>
-                    <li class="item">img</li>
-                    <li class="item">img</li>
+                <ul class="owl-carousel fell">
+                    <li class="item"><label class="img" for="img-content1"><img class="img-responsive" src="images/img-1.jpg"></label>
+<!--                        <input name="group-fell" type="radio" checked="checked" id="img-content1"/>-->
+                        <h3 class="name">Th.S Phương Minh Huệ</h3>
+                        <p>Tổng Giám đôc <span>Công ty cổ phần ĐT Việt Phương</span></p>
+                    </li>
+                    <li class="item"><label class="img" for="img-content2"><img class="img-responsive" src="images/img-2.jpg"></label>
+<!--                        <input name="group-fell" type="radio" checked="checked" id="img-content2"/>-->
+                        <h3 class="name">Th.S Phương Minh Huệ</h3>
+                        <p>Tổng Giám đôc <span>Công ty cổ phần ĐT Việt Phương</span></p>
+                    </li>
+                    <li class="item"><label class="img" for="img-content3"><img class="img-responsive" src="images/img-3.jpg"></label>
+<!--                        <input name="group-fell" type="radio" checked="checked" id="img-content3"/>-->
+                        <h3 class="name">Th.S Phương Minh Huệ</h3>
+                        <p>Tổng Giám đôc <span>Công ty cổ phần ĐT Việt Phương</span></p>
+                    </li>
+                    <li class="item"><label class="img" for="img-content1"><img class="img-responsive" src="images/img-1.jpg"></label>
+<!--                        <input name="group-fell" type="radio" checked="checked" id="img-content1"/>-->
+                        <h3 class="name">Th.S Phương Minh Huệ</h3>
+                        <p>Tổng Giám đôc <span>Công ty cổ phần ĐT Việt Phương</span></p>
+                    </li>
+                    <li class="item"><label class="img" for="img-content2"><img class="img-responsive" src="images/img-2.jpg"></label>
+<!--                        <input name="group-fell" type="radio" checked="checked" id="img-content2"/>-->
+                        <h3 class="name">Th.S Phương Minh Huệ</h3>
+                        <p>Tổng Giám đôc <span>Công ty cổ phần ĐT Việt Phương</span></p>
+                    </li>
                 </ul>
+                <div class="box-content-wrap">
+
+                    <div class="wrap-item">
+                        <input name="group-fell" type="radio" checked="checked" id="img-content1"/>
+                        <div class="item">content 1</div>
+                    </div>
+
+                    <div class="wrap-item">
+                        <input name="group-fell" type="radio" id="img-content2"/>
+                        <div class="item">content 2</div>
+                    </div>
+
+                    <div class="wrap-item">
+                        <input name="group-fell" type="radio" id="img-content3"/>
+                        <div class="item">content 3</div>
+                    </div>
+
+                    <div class="wrap-item">
+                        <input name="group-fell" type="radio" id="img-content4"/>
+                        <div class="item">content 4</div>
+                    </div>
+
+                    <div class="wrap-item">
+                        <input name="group-fell" type="radio" id="img-content5"/>
+                        <div class="item">content 5</div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</section>
-
-<section class="section group feedback">
-    <div class="container">
-
-
     </div>
 </section>
 
@@ -562,7 +591,7 @@
                     <p>với chúng tôi để nhận thông tin khóa học</p>
                 </h3>
             </div>
-            <div class="line-contact"><img src="images/line-contact-png-01.png"></div>
+            <div class="line-contact"><img class="img-responsive" src="images/line-contact-png-01.png"></div>
             <div class="col-lg-5 col-md-5 col-sm-5 wrap-address">
                 <div class="wrap-contact-left">
                     <h4>Địa chỉ của chúng tôi</h4>
@@ -637,7 +666,7 @@
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="footer-left">
                         <div class="wrap-logo">
-                            <img src="images/logo.png">
+                            <img class="img-responsive" src="images/logo.png">
                         </div>
                         <div class="wrap-text">
                             <h3>VIỆN ĐÀO TẠO SAU ĐẠI HỌC</h3>
@@ -652,6 +681,16 @@
 </footer>
 </div>
 
+<div id="register-popup" class="register-popup">
+    <div class="overlay"></div>
+    <div class="container">
+    <div class="row">
+        <div class="get-content col-lg-7">
+            <span class="close">close</span>
+        </div>
+    </div>
+</div>
+</div>
 
 <script type="text/javascript" src="lib/jquery.js"></script>
 <script type="text/javascript" src="lib/pgwslider-master/pgwslider.min.js"></script>
