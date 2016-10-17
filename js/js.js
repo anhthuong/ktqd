@@ -12,39 +12,27 @@ jQuery(document).ready(function($) {
     $(".register-button").each(function(){
         $(this).click(function(){
             $('#register-popup').addClass('active');
+            $('.form-contact-action form').clone().appendTo('#register-popup .get-content');
         });
     });
 
-    //$(".register-button").each().on
 
-    $('.fell .item .img').on('click', function(){
-       $(this).parent('.owl-item').addClass('show-content');
-        console.log($(this).parent('.owl-item'));
-       //$(this).parent('.owl-item').siblings().removeClass('show-content');
-    });
-
-    $('.fell .item').each(function(){
-        $(this).click(function(){
-            $(this).addClass('show-content');
-            $(this).siblings().removeClass('show-content');
-        });
-    });
 
     $('#register-popup .close').on('click', function(){
         $('#register-popup').removeClass('active');
+        $('#register-popup .get-content form').remove();
     });
 
     $(".owl-carousel").each(function() {
         if($(this).hasClass('student')){
             $(this).owlCarousel({
-                //dotsContainer: '.dotsCont',
                 dots:false,
                 loop:true,
                 nav:true,
                 margin:80,
                 autoplay:true,
                 autoplayHoverPause:true,
-                navText:['<span class="prev">prev</span>', '<span class="next">next</span>'],
+                navText:['<span class="prev"><i class="fa fa-chevron-left"></i></span>', '<span class="next"><i class="fa fa-chevron-right"></i></span>'],
                 items:3
             });
         }
@@ -53,6 +41,7 @@ jQuery(document).ready(function($) {
             $(this).owlCarousel({
                 dotsContainer: '.dots-data',
                 nav:true,
+                navText:['<span class="prev"><i class="fa fa-angle-left"></i></span>', '<span class="next"><i class="fa fa-angle-right"></i></span>'],
                 margin:0,
                 loop:true,
                 items:1
@@ -63,33 +52,36 @@ jQuery(document).ready(function($) {
             $(this).owlCarousel({
                 nav:true,
                 margin:100,
+                navText:['<span class="prev"><i class="fa fa-angle-left"></i></span>', '<span class="next"><i class="fa fa-angle-right"></i></span>'],
                 loop:true,
                 items:4
             });
         }
     });
 
-    //data-dots="false"
-    //data-loop="true"
-    //data-nav = "true"
-    //data-margin = "80"
-    //data-autoplayTimeout="1000"
-    //data-autoplay="true"
-    //data-autoplayHoverPause = "true"
-    //data-responsive='{"0":{"items":1},"480":{"items":2},"640":{"items":3}, "991":{"items":3},"1200":{"items":3}}'
-
-    //$('.owl-carousel2').unslider({
-    //    dots: true
+    //
+    //$('.fell .owl-item').each(function(){
+    //    $(this).click(function(){
+    //        $(this).addClass('show-content');
+    //        $(this).siblings().removeClass('show-content');
+    //    });
     //});
 
-    //owl = $('.owl-carousel').owlCarousel();
-    //owl.owlCarousel({
-    ////var config = owl.data();
-    //dotsContainer: '#carousel-custom-dots';
-    ////owl(config);
-    //});
+var a = $('.fell .item').length;
+    console.log(a);
+    $('.fell .item').each(function(){
+        var tmp = $(this);
+        $(this).find('.img').click(function(){
+            $(this).parent().addClass('show-content enable');
+            $('.fell .item').each(function(){
+                if($(this) != tmp){
+                    $(this).removeClass('show-content');
+                }
+            });
+        });
+    });
 
-    
+
         $('.pgwSlider-01').pgwSlider();
         $('.pgwSlideshow').pgwSlideshow();
         

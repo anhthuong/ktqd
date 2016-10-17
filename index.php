@@ -24,7 +24,7 @@
             <div class="col-lg-3 col-md-3">
                 <a href="#" class="logo"><img class="img-responsive" src="images/logo.png"></a>
             </div>
-            <div class="col-lg-9 col-md-9">
+            <div class="header-right col-lg-9 col-md-9">
                 <div class="header-content">
                     <div class="link-action">
                         <p class="phone-number">85487845</p>
@@ -37,20 +37,28 @@
                             <span></span>
                             <span></span>
                         </a>
-                        <ul id="menu-top-menu">
-                            <li class="menu-item">
-                                <a href="#"><span class="menu-text">Home</span></a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="#"><span class="menu-text">Home</span></a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="#"><span class="menu-text">Home</span></a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="#"><span class="menu-text">Home</span></a>
-                            </li>
-                        </ul>
+                        <div id="menu-top-menu" class="menu-top-menu">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-9 col-md-9 col-md-offset-3 col-lg-offset-3">
+                                        <ul >
+                                            <li class="menu-item">
+                                                <a href="#"><span class="menu-text">Home</span></a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="#"><span class="menu-text">Home</span></a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="#"><span class="menu-text">Home</span></a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="#"><span class="menu-text">Home</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -223,7 +231,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div><img class="img-responsive" src="images/img-2.jpg"></div>
+                                <div class="wrap-img"><img class="img-responsive" src="images/img-2.jpg"></div>
                                 <h3 class="name">Th.S Duong Tat Thang</h3>
 
                                 <p class="detail">Tổng giám đốc công ty á long</p>
@@ -246,7 +254,7 @@
                                 </div>
                             </li>
                             <li>
-                                <div><img class="img-responsive" src="images/img-3.jpg"></div>
+                                <div class="wrap-img"><img class="img-responsive" src="images/img-3.jpg"></div>
                                 <h3 class="name">Th.S Duong Tat Thang</h3>
 
                                 <p class="detail">Tổng giám đốc công ty á long</p>
@@ -489,10 +497,10 @@
                     </li>
                 </ul>
                 <div class="dots-data">
-                    <div>1</div>
-                    <div>2</div>
-                    <div>3</div>
-                    <div>4</div>
+                    <div class="dot-item"><img class="img-responsive" src="images/section-target/bg-target.png"></div>
+                    <div class="dot-item"><img class="img-responsive" src="images/section-target/bg-target.png"></div>
+                    <div class="dot-item"><img class="img-responsive" src="images/section-target/bg-target.png"></div>
+                    <div class="dot-item"><img class="img-responsive" src="images/section-target/bg-target.png"></div>
                 </div>
 
 
@@ -524,27 +532,29 @@
             <div class="">
                 <ul class="owl-carousel fell">
                     <li class="item"><label class="img" for="img-content1"><img class="img-responsive" src="images/img-1.jpg"></label>
-<!--                        <input name="group-fell" type="radio" checked="checked" id="img-content1"/>-->
                         <h3 class="name">Th.S Phương Minh Huệ</h3>
                         <p>Tổng Giám đôc <span>Công ty cổ phần ĐT Việt Phương</span></p>
                     </li>
                     <li class="item"><label class="img" for="img-content2"><img class="img-responsive" src="images/img-2.jpg"></label>
-<!--                        <input name="group-fell" type="radio" checked="checked" id="img-content2"/>-->
+
                         <h3 class="name">Th.S Phương Minh Huệ</h3>
                         <p>Tổng Giám đôc <span>Công ty cổ phần ĐT Việt Phương</span></p>
                     </li>
                     <li class="item"><label class="img" for="img-content3"><img class="img-responsive" src="images/img-3.jpg"></label>
-<!--                        <input name="group-fell" type="radio" checked="checked" id="img-content3"/>-->
+
                         <h3 class="name">Th.S Phương Minh Huệ</h3>
                         <p>Tổng Giám đôc <span>Công ty cổ phần ĐT Việt Phương</span></p>
                     </li>
-                    <li class="item"><label class="img" for="img-content1"><img class="img-responsive" src="images/img-1.jpg"></label>
-<!--                        <input name="group-fell" type="radio" checked="checked" id="img-content1"/>-->
+                    <li class="item"><label class="img" for="img-content4"><img class="img-responsive" src="images/img-1.jpg"></label>
+
                         <h3 class="name">Th.S Phương Minh Huệ</h3>
                         <p>Tổng Giám đôc <span>Công ty cổ phần ĐT Việt Phương</span></p>
                     </li>
-                    <li class="item"><label class="img" for="img-content2"><img class="img-responsive" src="images/img-2.jpg"></label>
-<!--                        <input name="group-fell" type="radio" checked="checked" id="img-content2"/>-->
+                    <li class="item">
+                        <label class="img" for="img-content5">
+                            <img class="img-responsive" src="images/img-2.jpg">
+                        </label>
+
                         <h3 class="name">Th.S Phương Minh Huệ</h3>
                         <p>Tổng Giám đôc <span>Công ty cổ phần ĐT Việt Phương</span></p>
                     </li>
