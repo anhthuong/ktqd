@@ -67,7 +67,7 @@ span{font-size: inherit; font-family: inherit; font-weight: inherit; line-height
 /*Header*/
 .header{
     min-height: 645px;
-    background-image: url("../images/banner-01.png");
+    background-image: url("../images/banner-01.jpg");
     background-repeat: no-repeat; background-size: cover;
     padding-top: 30px;
 }
@@ -106,7 +106,7 @@ text-align: left;
     position: relative;
     padding-bottom: 20px;
     color: #565656;
-
+	line-height: 40px;
 }
 .content .section.main-info .title:before,
 .content .section.addition-info .title:before{
@@ -131,6 +131,11 @@ text-align: left;
 
 
 /*section more-info*/
+.content .section.more-info{
+	padding: 70px 0;
+    background-image: url("../images/section-more-info/bg-may-nui.png"); background-repeat: no-repeat; background-position: center center;
+
+}
 .content .section.more-info .title{text-align: left;}
 .more-info .tab-container{margin: 0 30px}
 .more-info .student .owl-nav .owl-prev, .more-info .student .owl-nav .owl-next{
@@ -150,7 +155,7 @@ label .blue{font-family: avo_bold; font-weight: bold; font-size: 16px;}
 .more-info .program .content input[name="type-drop"]{display: none}
 .more-info .program .content .content-box{display: none; border-left: 1px solid #f9a22e; margin-left: 9px; padding-left: 33px; margin-top: 10px; margin-bottom: 10px;}
 .more-info .program .content .content-box p{
-    font-size: 16px; line-height: 20px; color: #4c4c4c;
+    font-size: 15px; line-height: 20px; color: #4c4c4c;
 }
 .more-info .program .content input[type="radio"]:checked + .content-box{display: block}
 
@@ -160,10 +165,7 @@ label .blue{font-family: avo_bold; font-weight: bold; font-size: 16px;}
 /*target*/
 .content .section.target{height: 600px}
 .content .section.target .title, .content .section.target .sub-info{text-align: left}
-.content .section.target{background-image: url("../images/section-target/bg-target.png");
-    background-repeat: no-repeat; background-position: 90% top;
-}
-.content .section.target .left{padding-top: 150px}
+.content .section.target .left{padding-top: 30px}
 
 /*addition info*/
 .content .section.addition-info{
@@ -223,8 +225,8 @@ label .blue{font-family: avo_bold; font-weight: bold; font-size: 16px;}
 .addition-info .box-content .icon.hs{background-image: url("../images/ico-1-01-active.png"); }
 .addition-info .box-content ul li:hover .icon.hs{background-image: url("../images/ico-1-01.png"); }
 
-.addition-info .box-content .icon.kg{background-image: url("../images/ico-2-01-01-active.png"); }
-.addition-info .box-content ul li:hover .icon.kg{background-image: url("../images/ico-2-01-01.png"); }
+.addition-info .box-content .icon.kg{background-image: url("../images/phone-active.png"); }
+.addition-info .box-content ul li:hover .icon.kg{background-image: url("../images/phone.png"); }
 
 .addition-info .box-content .icon.dd{background-image: url("../images/ico-3-01-active.png"); }
 .addition-info .box-content ul li:hover .icon.dd{background-image: url("../images/ico-3-01.png"); }
@@ -232,8 +234,8 @@ label .blue{font-family: avo_bold; font-weight: bold; font-size: 16px;}
 .addition-info .box-content .icon.time{background-image: url("../images/ico-4-01-active.png"); }
 .addition-info .box-content ul li:hover .icon.time{background-image: url("../images/ico-4-01.png"); }
 
-.addition-info .box-content .icon.hp{background-image: url("../images/ico-5-07-active.png"); }
-.addition-info .box-content ul li:hover .icon.hp{background-image: url("../images/ico-5-07.png"); }
+.addition-info .box-content .icon.hp{background-image: url("../images/cap-active.png"); }
+.addition-info .box-content ul li:hover .icon.hp{background-image: url("../images/cap.png"); }
 
 .addition-info .box-content .icon.bc{background-image: url("../images/ico-6-09-active.png"); }
 .addition-info .box-content ul li:hover .icon.bc{background-image: url("../images/ico-6-09.png"); }

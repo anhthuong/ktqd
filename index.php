@@ -95,7 +95,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-5 col-lg-5">
-                <img class="img-responsive" src="images/section-more-info/left-img.png"/>
+                <img class="img-responsive" src="images/section-more-info/DSC_6874.JPG"/>
             </div>
             <div class="program col-md-7 col-lg-7">
                 <h3 class="title title-custom">
@@ -164,8 +164,8 @@
                 <div class="wrap-cutome-margin">
                     <div class="tab-container">
                         <ul class="student owl-carousel owl-carousel-slide1">
-                            <li>
-                                <div class="wrap-img"><img class="img-responsive" src="images/img-2.jpg"></div>
+                        	<li>
+                                <div class="wrap-img"><img class="img-responsive" src="images/img-2.jpg"/></div>
                                 <h3 class="name">H.V LÊ THÀNH QUÂN</h3>
 
                                 <p class="detail">VỤ TRƯỞNG, CHỦ TỊCH CÔNG ĐOÀN BỘ KH&DT </p>
@@ -184,11 +184,11 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li>
-                                <div class="wrap-img"><img class="img-responsive" src="images/img-1.jpg"></div>
-                                <h3 class="name">Th.S Lê Đức Thuấn</h3>
+                        	<li>
+                                <div class="wrap-img"><img class="img-responsive" src="images/img-2.jpg"/></div>
+                                <h3 class="name">TS. Nguyễn Huy Ngọc</h3>
 
-                                <p class="detail">TỔNG GIÁM ĐỐC CÔNG TY Á LONG</p>
+                                <p class="detail">Phó giám đốc sở y tế tỉnh phú thọ</p>
 
                                 <div class="social">
                                     <ul>
@@ -207,6 +207,7 @@
                                     </ul>
                                 </div>
                             </li>
+                            
                             <li>
                                 <div class="wrap-img"><img class="img-responsive" src="images/img-3.jpg"></div>
                                 <h3 class="name">th.s dương tất thắng</h3>
@@ -230,11 +231,12 @@
                                     </ul>
                                 </div>
                             </li>
+                            
                             <li>
-                                <div class="wrap-img"><img class="img-responsive" src="images/img-2.jpg"></div>
-                                <h3 class="name">Th.S Duong Tat Thang</h3>
+                                <div class="wrap-img"><img class="img-responsive" src="images/img-1.jpg"></div>
+                                <h3 class="name">Th.S Lê Đức Thuấn</h3>
 
-                                <p class="detail">Tổng giám đốc công ty á long</p>
+                                <p class="detail">TỔNG GIÁM ĐỐC CÔNG TY Á LONG</p>
 
                                 <div class="social">
                                     <ul>
@@ -253,6 +255,8 @@
                                     </ul>
                                 </div>
                             </li>
+                            
+                            
                             <li>
                                 <div class="wrap-img"><img class="img-responsive" src="images/img-3.jpg"></div>
                                 <h3 class="name">Th.S Duong Tat Thang</h3>
@@ -292,19 +296,23 @@
                     Mục tiêu <span class="blue"> đào tạo</span>
                 </h3>
 
-                <p class="sub-info">
-                    Nhằm đào tạo học viên trở thành những nhà lãnh đạo chuyên nghiệp, có đủ năng lực thúc đẩy sự phát
-                    triển của tổ chức trên con đường hội nhập, với trọng tâm là mở rộng và nâng cao khả năng xác định
-                    tầm nhìn và xây dựng chiến lược, rèn luyện các kỹ năng lãnh đạo và điều hành của người đứng đầu
-                </p>
-
-                <div class="subcription subcription-custom">
-                    <button class="register-button" class="button">Nhận thông tin khóa học</button>
-                </div>
+                <div class="content-ticker">
+		            <p>Trở thành những nhà lãnh đạo chuyên nghiệp, có đủ năng lực thúc đẩy sự phát
+                    triển của tổ chức trên con đường hội nhập.</p>
+							
+		            <p>Mở rộng và nâng cao khả năng xác định
+                    tầm nhìn và xây dựng chiến lược.</p>
+		
+		            <p>Rèn luyện các kỹ năng lãnh đạo và điều hành của người đứng đầu.</p>
+		        </div>
+		        
+		        <div class="subcription subcription-custom">
+		            <button class="register-button" class="button">Nhận thông tin khóa học</button>
+		        </div>
             </div>
-            <!--                        <div class="col-lg-7 col-md-7">-->
-            <!--                            <img class="img-responsive" src="images/section-target/bg-target.png">-->
-            <!--                        </div>-->
+            <div class="col-lg-6 col-md-6">
+                <img class="img-responsive" src="images/section-target/IMG_1570.JPG"/>
+            </div>
         </div>
     </div>
 </section>
@@ -326,7 +334,19 @@
 
                                     <div class="sub">
                                         <label class="orange">Thụ lí hồ sơ</label>
-                                        <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
+                                        <span class="white">Ngày 1/11/2016 | Thi tuyển 3+4/12/2016</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="bg-hover">
+                                    
+                                    <span class="icon dd"></span>
+
+                                    <div class="sub">
+                                        <label class="orange">Địa chỉ</label>
+                                        <span class="white">Tầng 2, Nhà 6, Trường Trường Đại học Kinh tế Quốc dân</span>
+										<span class="white">207 đường Giải Phóng, quận Hai Bà Trưng, Hà Nội</span>
                                     </div>
                                 </div>
                             </li>
@@ -335,18 +355,9 @@
                                     <span class="icon kg"></span>
 
                                     <div class="sub">
-                                        <label class="orange">Thụ lí hồ sơ</label>
-                                        <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="bg-hover">
-                                    <span class="icon dd"></span>
-
-                                    <div class="sub">
-                                        <label class="orange">Thụ lí hồ sơ</label>
-                                        <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
+                                        <label class="orange">Liên hệ</label>
+                                        <span class="white">Hotline: 0967 044 852</span>
+										<span class="white">E-mail: executivembaneu@gmail.com</span>
                                     </div>
                                 </div>
                             </li>
@@ -363,8 +374,8 @@
                                     <span class="icon time"></span>
 
                                     <div class="sub">
-                                        <label class="orange">Thụ lí hồ sơ</label>
-                                        <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
+                                        <label class="orange">Thời gian học</label>
+                                        <span class="white">2 năm, tổ chức vào thứ 7, chủ nhật hàng tuần</span>
                                     </div>
                                 </div>
                             </li>
@@ -373,8 +384,9 @@
                                     <span class="icon hp"></span>
 
                                     <div class="sub">
-                                        <label class="orange">Thụ lí hồ sơ</label>
-                                        <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
+                                        <label class="orange">Điều kiện học tập</label>
+                                        <span class="white">Cơ sở vật chất hiện đại, tài liệu học tập được</span>
+										<span class="white">cung cấp đầy đủ, ăn nhẹ giữa giờ</span>
                                     </div>
                                 </div>
                             </li>
@@ -383,8 +395,9 @@
                                     <span class="icon bc"></span>
 
                                     <div class="sub">
-                                        <label class="orange">Thụ lí hồ sơ</label>
-                                        <span class="white">Ngày 1/11/2016 thi tuyển 3+4/12/2016</span>
+                                        <label class="orange">Bằng cấp</label>
+                                        <span class="white">Học viên tốt nghiệp nhận bằng thạc sỹ điều hành</span>
+										<span class="white">cao cấp của trường Đại học Kinh tế quốc dân</span>
                                     </div>
                                 </div>
                             </li>

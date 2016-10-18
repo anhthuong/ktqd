@@ -3,11 +3,13 @@
 }
 .content-ticker p:before {
     content: "";
-    display: inline-block;
+    display: block;
     vertical-align: top;
     width: 21px;
-    height: 21px;
+    float: left;
+    height: 30px;
     margin-right: 25px;
+    line-height: 37px;
     background-image: url("../images/section-more-info/tick-01.png");
     background-position: center center;
     background-repeat: no-repeat;
