@@ -333,8 +333,10 @@
                                     <span class="icon hs"></span>
 
                                     <div class="sub">
-                                        <label class="orange">Thụ lí hồ sơ</label>
-                                        <span class="white">Ngày 1/11/2016 | Thi tuyển 3+4/12/2016</span>
+                                        <div class="align-box">
+                                            <label class="orange">Thụ lí hồ sơ</label>
+                                            <span class="white">Ngày 1/11/2016 | Thi tuyển 3+4/12/2016</span>
+                                        </div>
                                     </div>
                                 </div>
                             </li>
@@ -344,9 +346,11 @@
                                     <span class="icon dd"></span>
 
                                     <div class="sub">
-                                        <label class="orange">Địa chỉ</label>
-                                        <span class="white">Tầng 2, Nhà 6, Trường Trường Đại học Kinh tế Quốc dân</span>
-										<span class="white">207 đường Giải Phóng, quận Hai Bà Trưng, Hà Nội</span>
+                                        <div class="align-box">
+                                            <label class="orange">Địa chỉ</label>
+                                            <span class="white">Tầng 2, Nhà 6, Trường Trường Đại học Kinh tế Quốc dân</span>
+                                            <span class="white">207 đường Giải Phóng, quận Hai Bà Trưng, Hà Nội</span>
+                                        </div>
                                     </div>
                                 </div>
                             </li>
@@ -355,9 +359,11 @@
                                     <span class="icon kg"></span>
 
                                     <div class="sub">
-                                        <label class="orange">Liên hệ</label>
-                                        <span class="white">Hotline: 0967 044 852</span>
-										<span class="white">E-mail: executivembaneu@gmail.com</span>
+                                        <div class="align-box">
+                                            <label class="orange">Liên hệ</label>
+                                            <span class="white">Hotline: 0967 044 852</span>
+                                            <span class="white">E-mail: executivembaneu@gmail.com</span>
+                                        </div>
                                     </div>
                                 </div>
                             </li>
@@ -374,8 +380,10 @@
                                     <span class="icon time"></span>
 
                                     <div class="sub">
-                                        <label class="orange">Thời gian học</label>
-                                        <span class="white">2 năm, tổ chức vào thứ 7, chủ nhật hàng tuần</span>
+                                        <div class="align-box">
+                                            <label class="orange">Thời gian học</label>
+                                            <span class="white">2 năm, tổ chức vào thứ 7, chủ nhật hàng tuần</span>
+                                        </div>
                                     </div>
                                 </div>
                             </li>
@@ -384,9 +392,11 @@
                                     <span class="icon hp"></span>
 
                                     <div class="sub">
-                                        <label class="orange">Điều kiện học tập</label>
-                                        <span class="white">Cơ sở vật chất hiện đại, tài liệu học tập được</span>
-										<span class="white">cung cấp đầy đủ, ăn nhẹ giữa giờ</span>
+                                        <div class="align-box">
+                                            <label class="orange">Điều kiện học tập</label>
+                                            <span class="white">Cơ sở vật chất hiện đại, tài liệu học tập được</span>
+                                            <span class="white">cung cấp đầy đủ, ăn nhẹ giữa giờ</span>
+                                        </div>
                                     </div>
                                 </div>
                             </li>
@@ -395,9 +405,11 @@
                                     <span class="icon bc"></span>
 
                                     <div class="sub">
-                                        <label class="orange">Bằng cấp</label>
-                                        <span class="white">Học viên tốt nghiệp nhận bằng thạc sỹ điều hành</span>
-										<span class="white">cao cấp của trường Đại học Kinh tế quốc dân</span>
+                                        <div class="align-box">
+                                            <label class="orange">Bằng cấp</label>
+                                            <span class="white">Học viên tốt nghiệp nhận bằng thạc sỹ điều hành</span>
+                                            <span class="white">cao cấp của trường Đại học Kinh tế quốc dân</span>
+                                        </div>
                                     </div>
                                 </div>
                             </li>
@@ -544,60 +556,107 @@
         <div class="slide">
             <div class="">
                 <ul class="owl-carousel fell">
-                    <li class="item"><label class="img" for="img-content1"><img class="img-responsive" src="images/img-1.jpg"></label>
-                        <h3 class="name">Th.S Phương Minh Huệ</h3>
-                        <p>Tổng Giám đôc <span>Công ty cổ phần ĐT Việt Phương</span></p>
-                    </li>
-                    <li class="item"><label class="img" for="img-content2"><img class="img-responsive" src="images/img-2.jpg"></label>
+                    <li class="item">
+                        <img class="img-responsive" src="images/img-1.jpg">
 
                         <h3 class="name">Th.S Phương Minh Huệ</h3>
                         <p>Tổng Giám đôc <span>Công ty cổ phần ĐT Việt Phương</span></p>
-                    </li>
-                    <li class="item"><label class="img" for="img-content3"><img class="img-responsive" src="images/img-3.jpg"></label>
-
-                        <h3 class="name">Th.S Phương Minh Huệ</h3>
-                        <p>Tổng Giám đôc <span>Công ty cổ phần ĐT Việt Phương</span></p>
-                    </li>
-                    <li class="item"><label class="img" for="img-content4"><img class="img-responsive" src="images/img-1.jpg"></label>
-
-                        <h3 class="name">Th.S Phương Minh Huệ</h3>
-                        <p>Tổng Giám đôc <span>Công ty cổ phần ĐT Việt Phương</span></p>
+                        <div class="student-box">
+                            <h3 class="name">Th.S Phương Minh Huệ</h3>
+                            <p>Tổng Giám đôc <span>Công ty cổ phần ĐT Việt Phương</span></p>
+                            <div class="detail">
+                                <p>Viện đào tạo sau đại học và ban điều hành chương trình...</p>
+                            </div>
+                        </div>
                     </li>
                     <li class="item">
-                        <label class="img" for="img-content5">
-                            <img class="img-responsive" src="images/img-2.jpg">
-                        </label>
+                        <img class="img-responsive" src="images/img-2.jpg">
 
                         <h3 class="name">Th.S Phương Minh Huệ</h3>
                         <p>Tổng Giám đôc <span>Công ty cổ phần ĐT Việt Phương</span></p>
+                        <div class="student-box">
+                            <h3 class="name">Th.S Phương Minh Huệ</h3>
+                            <p>Tổng Giám đôc <span>Công ty cổ phần ĐT Việt Phương</span></p>
+                            <div class="detail">
+                                <p>Viện đào tạo sau đại học và ban điều hành chương trình...</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <img class="img-responsive" src="images/img-3.jpg">
+
+                        <h3 class="name">Th.S Phương Minh Huệ</h3>
+                        <p>Tổng Giám đôc <span>Công ty cổ phần ĐT Việt Phương</span></p>
+                        <div class="student-box">
+                            <h3 class="name">Th.S Phương Minh Huệ</h3>
+                            <p>Tổng Giám đôc <span>Công ty cổ phần ĐT Việt Phương</span></p>
+                            <div class="detail">
+                                <p>Viện đào tạo sau đại học và ban điều hành chương trình...</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <img class="img-responsive" src="images/img-1.jpg">
+
+                        <h3 class="name">Th.S Phương Minh Huệ</h3>
+                        <p>Tổng Giám đôc <span>Công ty cổ phần ĐT Việt Phương</span></p>
+                        <div class="student-box">
+                            <h3 class="name">Th.S Phương Minh Huệ</h3>
+                            <p>Tổng Giám đôc <span>Công ty cổ phần ĐT Việt Phương</span></p>
+                            <div class="detail">
+                                <p>Viện đào tạo sau đại học và ban điều hành chương trình...</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <img class="img-responsive" src="images/img-2.jpg">
+                        <h3 class="name">Th.S Phương Minh Huệ</h3>
+                        <p>Tổng Giám đôc <span>Công ty cổ phần ĐT Việt Phương</span></p>
+                        <div class="student-box">
+                            <h3 class="name">Th.S Phương Minh Huệ</h3>
+                            <p>Tổng Giám đôc <span>Công ty cổ phần ĐT Việt Phương</span></p>
+                            <div class="detail">
+                                <p>Viện đào tạo sau đại học và ban điều hành chương trình...</p>
+                            </div>
+                        </div>
                     </li>
                 </ul>
                 <div class="box-content-wrap">
-
-                    <div class="wrap-item">
-                        <input name="group-fell" type="radio" checked="checked" id="img-content1"/>
-                        <div class="item">content 1</div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            video
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div id="student" class="student">
+                                giới thiêu về học viên.
+                            </div>
+                        </div>
                     </div>
+<!--                    <div class="wrap-item">-->
+<!--                        <input name="group-fell" type="radio" checked="checked" id="img-content1"/>-->
+<!--                        <div class="item">content 1</div>-->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="wrap-item">-->
+<!--                        <input name="group-fell" type="radio" id="img-content2"/>-->
+<!--                        <div class="item">content 2</div>-->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="wrap-item">-->
+<!--                        <input name="group-fell" type="radio" id="img-content3"/>-->
+<!--                        <div class="item">content 3</div>-->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="wrap-item">-->
+<!--                        <input name="group-fell" type="radio" id="img-content4"/>-->
+<!--                        <div class="item">content 4</div>-->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="wrap-item">-->
+<!--                        <input name="group-fell" type="radio" id="img-content5"/>-->
+<!--                        <div class="item">content 5</div>-->
+<!--                    </div>-->
 
-                    <div class="wrap-item">
-                        <input name="group-fell" type="radio" id="img-content2"/>
-                        <div class="item">content 2</div>
-                    </div>
-
-                    <div class="wrap-item">
-                        <input name="group-fell" type="radio" id="img-content3"/>
-                        <div class="item">content 3</div>
-                    </div>
-
-                    <div class="wrap-item">
-                        <input name="group-fell" type="radio" id="img-content4"/>
-                        <div class="item">content 4</div>
-                    </div>
-
-                    <div class="wrap-item">
-                        <input name="group-fell" type="radio" id="img-content5"/>
-                        <div class="item">content 5</div>
-                    </div>
                 </div>
             </div>
         </div>

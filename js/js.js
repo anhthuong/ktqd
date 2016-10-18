@@ -59,28 +59,20 @@ jQuery(document).ready(function($) {
         }
     });
 
-    //
-    //$('.fell .owl-item').each(function(){
-    //    $(this).click(function(){
-    //        $(this).addClass('show-content');
-    //        $(this).siblings().removeClass('show-content');
+    //$('.fell .item').each(function(){
+    //    $(this).find('.img').click(function(){
+    //        $(this).parent().addClass('show-content enable');
+    //        $('.fell .item').each(function(){
+    //            if(!$(this).hasClass('enable')){
+    //                $(this).removeClass('show-content');
+    //            }
+    //            $(this).removeClass('enable');
+    //        });
     //    });
     //});
 
-var a = $('.fell .item').length;
-    console.log(a);
-    $('.fell .item').each(function(){
-        var tmp = $(this);
-        $(this).find('.img').click(function(){
-            $(this).parent().addClass('show-content enable');
-            $('.fell .item').each(function(){
-                if($(this) != tmp){
-                    $(this).removeClass('show-content');
-                }
-            });
-        });
-    });
-
+    //$('.fell .owl-item.active:nth-child(3)').find('.item .student-box').clone().appendTo('#student');
+    $('.fell .owl-item.active:nth-child(3)').addClass('abc');
 
         $('.pgwSlider-01').pgwSlider();
         $('.pgwSlideshow').pgwSlideshow();

@@ -80,11 +80,15 @@ span{font-size: inherit; font-family: inherit; font-weight: inherit; line-height
 .header .header-content .link-action p.phone-number:before{content: "img"; width: 20px; height: 20px; display: inline-block; margin-right: 20px}
 
 .main-menu .menu-toggle{display: block; position: relative; z-index: 99; width: 36px; height: 18px;}
-.main-menu .menu-toggle span{display: block; height: 3px; background-color: #2d2d2d; position: absolute; right: 0}
+.main-menu .menu-toggle span{
+    transition: all 0.3s;
+    display: block; height: 3px; background-color: #2d2d2d; position: absolute; right: 0
+}
 .main-menu .menu-toggle span:first-child{width: 35px; top: 0}
 .main-menu .menu-toggle span:nth-child(2){width: 26px; top: calc(50% - 1.5px)}
 .main-menu .menu-toggle.active span:nth-child(2){display: none}
 .main-menu .menu-toggle span:nth-child(3){width: 13px; bottom: 0}
+/*.main-menu .menu-toggle.active span{transition: all 0.3s}*/
 
 .main-menu .menu-toggle.active span:nth-child(3){width: 35px; transform: rotate(45deg); bottom: 6px}
 .main-menu .menu-toggle.active span:first-child{transform: rotate(-45deg); top: 8px}
@@ -208,8 +212,10 @@ label .blue{font-family: avo_bold; font-weight: bold; font-size: 16px;}
 .addition-info .right-box .icon,
 .addition-info .right-box .sub{float: left; margin-left: 50px}
 .addition-info .right-box .sub{}
-.addition-info .box-content .sub{padding: 20px 0; position: relative}
+.addition-info .box-content .sub{padding: 0; position: relative; height: 84px}
 .addition-info .box-content ul li .sub:before{content: ""; position: absolute; border-width: 42px 24px; border-style: solid; top: 0; display: none}
+.addition-info .box-content ul li .sub:after{content: ""; display: inline-block; vertical-align: middle; height: 100%}
+.addition-info .box-content ul li .sub .align-box{display: inline-block; vertical-align: middle}
 .addition-info .left-box.box-content ul li .sub:before{right: -38px; border-color: rgba(0, 133, 191, 0.6) transparent rgba(0, 133, 191, 0.6) rgba(0, 133, 191, 0.6)}
 .addition-info .right-box.box-content ul li .sub:before{left: -38px; border-color: rgba(0, 133, 191, 0.6) rgba(0, 133, 191, 0.6) rgba(0, 133, 191, 0.6) transparent}
 
@@ -400,14 +406,17 @@ p.text {
 
 
 /*Popup*/
-#register-popup{display: none; text-align: center}
-#register-popup.active{display: block; position: fixed; top: 0; bottom: 0; left: 0; right: 0; z-index: 9999}
+#register-popup{text-align: center;
+    transform: scale(0);  transition: all 0.3s}
+#register-popup.active{transform: scale(1); position: fixed; top: 0; bottom: 0; left: 0; right: 0; z-index: 9999}
 #register-popup.active .overlay{background-color: rgba(0, 0, 0, 0.6); width: 100%; height: 100%; position: absolute}
 
 #register-popup .get-content{
     display: inline-block; float: none; background-color: #fff; height: 300px; top: calc(50% - 150px);
     left: 20.83332%; position: absolute;
 }
-
+/*#register-popup.active .get-content{*/
+    /*transform: scale(1);*/
+/*}*/
 
 
