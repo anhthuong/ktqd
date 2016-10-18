@@ -644,7 +644,7 @@
                     mysql_query("SET NAMES utf8");
 
                     //Selecting Database from Server
-                    $db = mysql_select_db("picker_ktqd", $connection);
+                    $db = mysql_select_db("exemba", $connection);
                     if (isset($_POST['submit'])) {
 
                         //Fetching variables of the form which travels in URL
