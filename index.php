@@ -3,7 +3,7 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="lib/owl.carousel/owl.carousel.min.css">
     <link rel="stylesheet" href="lib/owl.carousel/owl.theme.default.min.css">
@@ -527,9 +527,6 @@
                     <div class="dot-item"><img class="img-responsive" src="images/section-target/bg-target.png"></div>
                     <div class="dot-item"><img class="img-responsive" src="images/section-target/bg-target.png"></div>
                 </div>
-
-
-
             </div>
         </div>
 
@@ -632,31 +629,6 @@
                             </div>
                         </div>
                     </div>
-<!--                    <div class="wrap-item">-->
-<!--                        <input name="group-fell" type="radio" checked="checked" id="img-content1"/>-->
-<!--                        <div class="item">content 1</div>-->
-<!--                    </div>-->
-<!---->
-<!--                    <div class="wrap-item">-->
-<!--                        <input name="group-fell" type="radio" id="img-content2"/>-->
-<!--                        <div class="item">content 2</div>-->
-<!--                    </div>-->
-<!---->
-<!--                    <div class="wrap-item">-->
-<!--                        <input name="group-fell" type="radio" id="img-content3"/>-->
-<!--                        <div class="item">content 3</div>-->
-<!--                    </div>-->
-<!---->
-<!--                    <div class="wrap-item">-->
-<!--                        <input name="group-fell" type="radio" id="img-content4"/>-->
-<!--                        <div class="item">content 4</div>-->
-<!--                    </div>-->
-<!---->
-<!--                    <div class="wrap-item">-->
-<!--                        <input name="group-fell" type="radio" id="img-content5"/>-->
-<!--                        <div class="item">content 5</div>-->
-<!--                    </div>-->
-
                 </div>
             </div>
         </div>

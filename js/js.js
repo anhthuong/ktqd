@@ -1,9 +1,6 @@
 jQuery(document).ready(function($) {
 
 
-
-
-
     jQuery('.main-menu .menu-toggle').on('click', function(){
         $(this).toggleClass('active');
         jQuery(this).siblings('#menu-top-menu').toggleClass('active');
@@ -33,7 +30,17 @@ jQuery(document).ready(function($) {
                 autoplay:true,
                 autoplayHoverPause:true,
                 navText:['<span class="prev"><i class="fa fa-chevron-left"></i></span>', '<span class="next"><i class="fa fa-chevron-right"></i></span>'],
-                items:3
+                responsive:{
+                    0:{
+                        items: 1
+                    },
+                    480:{
+                        items: 2
+                    },
+                    768:{
+                        items: 3
+                    }
+                }
             });
         }
 
@@ -51,28 +58,30 @@ jQuery(document).ready(function($) {
         if($(this).hasClass('fell')){
             $(this).owlCarousel({
                 nav:true,
-                margin:100,
+                margin:50,
                 navText:['<span class="prev"><i class="fa fa-angle-left"></i></span>', '<span class="next"><i class="fa fa-angle-right"></i></span>'],
                 loop:true,
-                items:4
+                responsive:{
+                    0:{
+                        items: 1
+                    },
+                    480:{
+                        items: 2
+                    },
+                    600:{
+                        items: 3
+                    },
+                    1024:{
+                        items: 4,
+                        margin: 100
+                    }
+                }
             });
         }
     });
 
-    //$('.fell .item').each(function(){
-    //    $(this).find('.img').click(function(){
-    //        $(this).parent().addClass('show-content enable');
-    //        $('.fell .item').each(function(){
-    //            if(!$(this).hasClass('enable')){
-    //                $(this).removeClass('show-content');
-    //            }
-    //            $(this).removeClass('enable');
-    //        });
-    //    });
-    //});
 
-    //$('.fell .owl-item.active:nth-child(3)').find('.item .student-box').clone().appendTo('#student');
-    $('.fell .owl-item.active:nth-child(3)').addClass('abc');
+
 
         $('.pgwSlider-01').pgwSlider();
         $('.pgwSlideshow').pgwSlideshow();
